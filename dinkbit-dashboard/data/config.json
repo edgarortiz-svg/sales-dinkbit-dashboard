@@ -1,0 +1,4 @@
+{
+  "_nota": "Supuestos del dashboard que no salen de ninguna fuente de datos. Las probabilidades del Pipeline ponderado NO viven aquí: se calculan solas a partir de las oportunidades del pipeline (ver stageProbabilities() en src/js/82-pipeline-history.js) — observadas del historial de snapshots cuando hay suficiente, o estimadas del embudo del snapshot actual mientras tanto.",
+  "snapshot_stale_days": 8
+}

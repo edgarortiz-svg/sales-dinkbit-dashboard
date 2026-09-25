@@ -1,0 +1,117 @@
+/* ============================================================
+   dinkbit — Design Tokens v1.1
+   Fuente de verdad para todo material gráfico de dinkbit.
+   Paleta OFICIAL de marca (proporcionada por dinkbit).
+   Nota: el sitio web actual usa #067df7; la paleta oficial manda.
+   Uso: importar/inlinear este archivo antes de cualquier CSS
+   de componente. Nunca hardcodear valores — siempre var().
+   ============================================================ */
+
+:root {
+  /* ---- Paleta oficial ---- */
+  --db-neon-blue-1: #1a61ff;  /* Neon Blue 1 — azul primario de marca */
+  --db-neon-blue-2: #254ef4;  /* Neon Blue 2 — hover/estados y variante */
+  --db-black-6:     #101820;  /* Black 6 — texto y fondo dark base */
+  --db-night:       #111111;  /* Night — superficie dark profunda */
+  --db-white:       #ffffff;  /* White */
+  --db-off-white:   #f6f6f6;  /* Off White — fondo de sección alterno */
+  --db-cool-gray:   #c3c3c3;  /* Cool Gray — bordes y secundarios */
+
+  /* ---- Alias de trabajo ---- */
+  --db-blue:        var(--db-neon-blue-1);
+  --db-blue-hover:  var(--db-neon-blue-2);
+  --db-blue-tint:   #1a61ff14; /* 8% — fondos de highlight, chips */
+  --db-blue-soft:   #7aa0ff;   /* derivado — labels/acentos sobre fondo dark */
+  --db-black:       var(--db-black-6);
+  --db-dark-night:  var(--db-night);
+  --db-gray-50:     var(--db-off-white);
+  --db-gray-100:    var(--db-off-white);
+  --db-gray-200:    var(--db-cool-gray);      /* bordes */
+  --db-gray-400:    #5c6670;  /* derivado de Black 6 — texto secundario AA sobre blanco */
+
+  /* ---- Estado y acento (extendidos, fuera de paleta core) ---- */
+  --db-error:       #f04134;
+  --db-yellow:      #facb07;  /* acento excepcional — máx. 1 uso por pieza */
+
+  /* ---- Roles semánticos (usar estos en componentes) ---- */
+  --db-bg:            var(--db-white);
+  --db-bg-alt:        var(--db-off-white);
+  --db-surface:       var(--db-white);
+  --db-text:          var(--db-black-6);
+  --db-text-muted:    var(--db-gray-400);
+  --db-border:        var(--db-cool-gray);
+  --db-accent:        var(--db-neon-blue-1);
+
+  /* ---- Tipografía ----
+     Inter Variable es LA tipografía de dinkbit. Sin sustitutos serif.
+     Cargar: https://fonts.googleapis.com/css2?family=Inter:wght@300..900&display=swap */
+  --db-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --db-font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  /* Escala tipográfica (ratio ~1.25, base 16px) */
+  --db-text-xs:   0.75rem;   /* 12 — metadatos, folios, labels */
+  --db-text-sm:   0.875rem;  /* 14 — captions, notas al pie */
+  --db-text-base: 1rem;      /* 16 — cuerpo */
+  --db-text-lg:   1.25rem;   /* 20 — lead / intro */
+  --db-text-xl:   1.5625rem; /* 25 — h3 */
+  --db-text-2xl:  1.953rem;  /* 31 — h2 */
+  --db-text-3xl:  2.441rem;  /* 39 — h1 secciones */
+  --db-text-4xl:  3.052rem;  /* 49 — títulos de portada */
+  --db-text-5xl:  3.815rem;  /* 61 — display hero */
+
+  /* Pesos: 400 cuerpo · 600 énfasis y botones · 700 títulos · 800 display */
+  --db-weight-body:    400;
+  --db-weight-medium:  500;
+  --db-weight-semibold:600;
+  --db-weight-bold:    700;
+  --db-weight-display: 800;
+
+  --db-leading-tight:  1.1;
+  --db-leading-snug:   1.3;
+  --db-leading-normal: 1.6;
+  --db-tracking-tight: -0.02em;
+  --db-tracking-wide:  0.08em;
+
+  /* ---- Espaciado (escala de 4px) ---- */
+  --db-space-1: 0.25rem;
+  --db-space-2: 0.5rem;
+  --db-space-3: 0.75rem;
+  --db-space-4: 1rem;
+  --db-space-6: 1.5rem;
+  --db-space-8: 2rem;
+  --db-space-12: 3rem;
+  --db-space-16: 4rem;
+  --db-space-24: 6rem;
+  --db-gutter: clamp(1.25rem, 5vw, 4rem);
+
+  /* ---- Geometría ----
+     REGLA DE MARCA: dinkbit es de esquinas rectas.
+     Botones, chips y tags: radius 0. Tarjetas: máximo 4px. */
+  --db-radius-none: 0;
+  --db-radius-card: 4px;
+
+  /* ---- Sombras (uso mínimo — se separa con color, no con sombra) ---- */
+  --db-shadow-card: 0 10px 15px -3px #1018201a, 0 4px 6px -4px #1018201a;
+
+  /* ---- Layout ---- */
+  --db-max-width: 75rem;
+  --db-max-width-text: 42rem;
+
+  /* ---- Transiciones ---- */
+  --db-ease: cubic-bezier(.4, 0, .2, 1);
+  --db-duration: .2s;
+}
+
+/* ---- Modo oscuro ----
+   Aplicar clase .db-dark al contenedor. Fondo base Black 6;
+   superficies elevadas Night. Los roles semánticos se invierten. */
+.db-dark {
+  --db-bg:         var(--db-black-6);
+  --db-bg-alt:     var(--db-night);
+  --db-surface:    var(--db-night);
+  --db-text:       var(--db-white);
+  --db-text-muted: #ffffff80;
+  --db-border:     #ffffff1a;
+  background: var(--db-bg);
+  color: var(--db-text);
+}

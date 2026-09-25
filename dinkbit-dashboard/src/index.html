@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>dinkbit · Sales & New Business</title>
+<meta name="robots" content="noindex, nofollow">
+<script>/*__ECHARTS__*/</script>
+<style>
+/*__STYLES__*/
+</style>
+</head>
+<body>
+<div class="app">
+<!-- ================= SIDEBAR ================= -->
+<aside class="side">
+  <div class="brand"><!--__WORDMARK__--><small>Sales</small></div>
+  <label class="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input id="q" placeholder="Buscar propuesta o cliente…"></label>
+  <div class="navg" id="navSales"><div class="label">Reporte de ventas</div><div class="src">Fuente · SALES - dinkbit.xlsx</div></div>
+  <div class="navsep"></div>
+  <div class="navg"><div class="label">Pipeline</div><div class="src">Fuente · Attio CRM</div>
+    <button class="nav" data-p="pipe"><svg viewBox="0 0 24 24"><path d="M3 5h18l-7 8v6l-4 2v-8z"/></svg>Snapshot<span class="badge" id="nDeals"></span></button>
+  </div>
+  <div class="foot"><b>Reporte de ventas</b><br>Corte <b id="fCut"></b> · <span id="fN"></span> propuestas<br><br><b>Pipeline · Attio</b><br>Snapshot <b id="fSnap"></b> · <span id="fD"></span> deals</div>
+</aside>
+
+<!-- ================= MAIN ================= -->
+<main class="main">
+  <div class="top">
+    <div class="crumb"><span id="crumbG">Reporte de ventas</span> &nbsp;/&nbsp; <b id="crumb"></b></div>
+    <div class="fgrp" id="fgPipe" style="display:none">
+      <div class="dd"><label>Unidad de negocio</label><select id="selBU"></select></div>
+      <div class="dd"><label>Fuente</label><select id="selSrc"></select></div>
+    </div>
+    <button class="btn noprint" id="printBtn" title="Imprimir o guardar como PDF (A4 horizontal)">Imprimir / PDF</button>
+  </div>
+
+  <!-- ===== PERIOD VIEW (SALES) — se construye dinámicamente ===== -->
+  <section class="view on" id="v-sales"></section>
+
+  <!-- ===== COMPARAR PERIODOS (ventas) ===== -->
+  <section class="view" id="v-cmp"></section>
+
+  <!-- ===== PIPELINE (ATTIO) ===== -->
+  <section class="view" id="v-pipe">
+    <div class="hero"><div><div class="date" id="ppDate"></div><h1>Snapshot del <span>pipeline</span></h1><p id="ppLede"></p></div><div class="actions"><span class="pill dark"><i></i>Attio CRM</span></div></div>
+    <div id="alertsPipe"></div>
+    <div class="grid g4" id="ppKpis"></div>
+    <div class="card sec"><div class="chead"><div><h3>El embudo</h3><p>La altura de cada escalón es el número de deals que están hoy en esa etapa · debajo, su valor y su peso sobre el pipe activo + won · haz clic en un escalón para ver sus deals</p></div><div class="legend" id="lgFunnel"></div></div>
+      <div class="cols" style="grid-template-columns:1fr 250px;align-items:stretch"><div id="chFunnel"></div><div class="lostbox" id="lostBox"></div></div><div id="ppStages" style="display:none"></div></div>
+    <div class="card sec" id="secChanges"></div>
+    <div class="card sec" id="secWeighted"></div>
+    <div class="card sec" id="secStage"><div class="chead"><div><h3>Deals en <span class="blue" id="stageTitle"></span></h3><p>Elige una etapa (o haz clic en el embudo) para ver sus oportunidades</p></div><div class="filters" style="margin:0"><div class="dd"><label>Etapa</label><select id="fStage"></select></div><span class="pill" id="stagePill" style="align-self:flex-end"><i></i><span></span></span></div></div><div style="overflow:auto"><table id="tblDeals"></table></div></div>
+    <div class="card sec"><div class="cols c-2"><div><div class="chead"><div><h3>Unidades de negocio</h3><p>Pipe activo + ganados</p></div><div class="legend"><span><i style="background:var(--ch-1)"></i>BU líder</span><span><i style="background:var(--ch-2)"></i>Resto</span></div></div><div id="ppBU"></div></div>
+      <div><div class="chead"><div><h3>Fuentes de deals</h3><p>Valor por fuente y resultado · todos los deals del snapshot</p></div><div class="legend"><span><i style="background:var(--ch-1)"></i>Won</span><span><i style="background:var(--ch-2)"></i>Activos</span><span><i style="background:var(--ch-lost)"></i>Lost</span></div></div><div class="ch" id="chSrc" style="height:300px"></div><div id="ppSrc" style="display:none"></div></div></div></div>
+    <div class="card sec" id="secTrend"></div>
+    <div class="card sec"><div class="chead"><div><h3>Antigüedad del pipe activo</h3><p>Días desde creación · valor de los deals abiertos por rango de edad</p></div><div class="legend"><span><i style="background:var(--ch-1)"></i>Menos de 90 días</span><span><i style="background:var(--ch-2)"></i>90 días o más (riesgo de enfriarse)</span></div></div><div class="ch xs" id="chAge"></div></div>
+    <div class="card sec"><div class="chead"><div><h3>Hallazgos del pipeline</h3><p>Generados a partir del snapshot de Attio</p></div></div><div id="ppInsights" class="items2"></div></div>
+  </section>
+</main>
+</div>
+
+<script id="sales" type="application/json">__SALES_JSON__</script>
+<script id="pipe" type="application/json">__PIPE_JSON__</script>
+<script id="hist" type="application/json">__HIST_JSON__</script>
+<script id="cfg" type="application/json">__CONFIG_JSON__</script>
+<script>
+/*__SCRIPT__*/
+</script>
+</body>
+</html>
