@@ -1,17 +1,17 @@
 # Última actualización · Snapshot del pipeline
 
-Fecha del snapshot: **2026-09-25** · 86 deals
+Fecha del snapshot: **2026-09-25** · 91 deals · (reemplazó un snapshot de la misma fecha)
 
 ## Resumen
 
-- Pipe activo: 34 deals · $2.88M
+- Pipe activo: 39 deals · $2.88M
 - Won: 31 deals · $3.31M · Lost: 21 deals · $2.28M
 - Conversion rate: 59.6% por conteo · 59.2% por valor
 
 ## Diferencias vs. snapshot anterior (2026-09-14)
 
-- Pipe activo: 32 → 34 deals · $3.94M → $2.88M
-- Deals nuevos: 17 · cambiaron de etapa: 10 · desaparecidos: 8 · cambio de monto: 5
+- Pipe activo: 32 → 39 deals · $3.94M → $2.88M
+- Deals nuevos: 22 · cambiaron de etapa: 10 · desaparecidos: 8 · cambio de monto: 5
   - NUEVO · No especificado · [Desarrollo Web & App MX] Jordan Chico . · 1. Lead · $0
   - NUEVO · No especificado · [Desarrollo Web & App MX] Pablo . · 1. Lead · $0
   - NUEVO · No especificado · [Desarrollo Web & App MX] Rafael Antonio Juárez Domínguez . · 1. Lead · $0
@@ -29,6 +29,11 @@ Fecha del snapshot: **2026-09-25** · 86 deals
   - NUEVO · Guantes Verri S.A. de C.V. · Migración de Tienda en Línea · 5. Won 🎉 · $22K
   - NUEVO · Dipz Desarrollos · Propuesta de Nueva Línea Gráfica y Manual de Marca · 3. In Progress · $0
   - NUEVO · Centro Mexicano de Fertilidad | Dr. Alberto Kably · Rediseño y Desarrollo de Nuevo Sitio Web · 5. Won 🎉 · $70K
+  - NUEVO · Johanne Cox · Branding y Papelería Corporativa · 2. Proposal · $0
+  - NUEVO · Cybex · Desarrollo de ERP · 2. Proposal · $0
+  - NUEVO · Johanne Cox · Diseño y Desarrollo de Sitio Web · 2. Proposal · $0
+  - NUEVO · Nexalia · Diseño y Desarrollo de Tienda en Línea · 2. Proposal · $0
+  - NUEVO · MOBO México · Migración de VTEX a Shopify · 2. Proposal · $0
   - avanza · Nexalia · Branding y Construcción de Marca: 2. Proposal → 4. Due Diligence · $68K
   - GANADO · Pioneer Electronics De Mexico · Desarrollo de Nuevo Sitio Web y Tienda en Línea: 4. Due Diligence → 5. Won 🎉 · $337K
   - avanza · PM Steele · Desarrollo de Sitio Web: 3. In Progress → 4. Due Diligence · $231K
@@ -60,4 +65,4 @@ Fecha del snapshot: **2026-09-25** · 86 deals
 - **INFO** · deal #46 'Estrategia de Contenidos Rumbo al Mundial 2026': sin empresa asociada.
 - **INFO** · deal #74 'Naming y Branding de Nueva Empresa': sin empresa asociada.
 - **INFO** · Este snapshot ya trae 'id' de Attio pero el anterior no: los deals se emparejan por empresa+nombre solo en este cambio; desde ahora se seguirán por id.
-- **INFO** · 15 deal(s) activo(s) sin monto en Attio.
+- **INFO** · 20 deal(s) activo(s) sin monto en Attio.
