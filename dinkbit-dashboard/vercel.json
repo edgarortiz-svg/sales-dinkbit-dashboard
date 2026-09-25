@@ -3,7 +3,7 @@
   "outputDirectory": "public",
   "framework": null,
   "installCommand": "true",
-  "proxy": { "entrypoint": "proxy.mjs" },
+  "proxy": { "entrypoint": "proxy.js" },
   "headers": [
     {
       "source": "/(.*)",

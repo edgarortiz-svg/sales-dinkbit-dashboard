@@ -15,7 +15,7 @@ Ambos skills terminan igual: Claude deja `public/index.html` listo y es **Edgar 
 
 Un dashboard de una sola página (HTML autocontenido, sin CDN) con **dos fuentes de
 datos que nunca se mezclan**, publicado en Vercel desde este repo (`vercel.json` →
-`outputDirectory: public`). La única pieza de servidor es `proxy.mjs`, un Routing Middleware
+`outputDirectory: public`). La única pieza de servidor es `proxy.js`, un Routing Middleware
 de Vercel que protege todo el sitio con usuario/contraseña antes de servir `public/index.html`
 (ver §6, "Login con usuario/contraseña").
 
@@ -46,7 +46,7 @@ tools/validate.py                checklist automático antes de publicar (ver §
 tools/common.py                  utilidades compartidas (incluye override DASH_DATA_DIR para pruebas)
 tests/                           pruebas automáticas — python3 -m unittest discover -s tests
 public/index.html                ENTREGABLE — lo publica Vercel. Nunca se edita a mano.
-proxy.mjs                        Routing Middleware de Vercel — login con usuario/contraseña (ver §6)
+proxy.js                        Routing Middleware de Vercel — login con usuario/contraseña (ver §6)
 vercel.json                      outputDirectory: public + cabeceras noindex/nosniff + proxy.entrypoint
 .gitignore                       excluye el .xlsx (trae COMISIONES) y basura de build/pruebas
 ```
@@ -357,7 +357,7 @@ de duración distinta o si el interruptor de normalización está activo.
   en la conversación; Claude corre las herramientas y deja `public/index.html` listo; **Edgar
   hace el `git push`** (directamente o vía su propio skill de publicación) — Claude no publica.
 - **Login con usuario/contraseña (25-sep-2026):** el link del dashboard es público, así que se
-  agregó protección con HTTP Basic Auth vía `proxy.mjs` (Routing Middleware de Vercel,
+  agregó protección con HTTP Basic Auth vía `proxy.js` (Routing Middleware de Vercel,
   `vercel.json` → `proxy.entrypoint`). El usuario y la contraseña viven **solo** como variables
   de entorno en el proyecto de Vercel (`DASH_USER`, `DASH_PASS`) — nunca en el repo. Esto es la
   única pieza de "backend" del proyecto: corre en el runtime de Node de Vercel, antes de servir
