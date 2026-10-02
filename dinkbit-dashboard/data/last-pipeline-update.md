@@ -1,71 +1,60 @@
 # Última actualización · Snapshot del pipeline
 
-Fecha del snapshot: **2026-09-25** · 90 deals · (reemplazó un snapshot de la misma fecha)
+Fecha del snapshot: **2026-10-02** · 86 deals
 
 ## Resumen
 
-- Pipe activo: 36 deals · $2.31M
-- Won: 32 deals · $3.32M · Lost: 22 deals · $2.78M
-- Conversion rate: 59.3% por conteo · 54.4% por valor
+- Pipe activo: 29 deals · $2.42M
+- Won: 32 deals · $3.32M · Lost: 25 deals · $3.05M
+- Conversion rate: 56.1% por conteo · 52.1% por valor
 
-## Diferencias vs. snapshot anterior (2026-09-14)
+## Diferencias vs. snapshot anterior (2026-09-25)
 
-- Pipe activo: 32 → 36 deals · $3.94M → $2.31M
-- Deals nuevos: 22 · cambiaron de etapa: 12 · desaparecidos: 9 · cambio de monto: 5
-  - NUEVO · No especificado · [Desarrollo Web & App MX] Jordan Chico . · 1. Lead · $0
-  - NUEVO · No especificado · [Desarrollo Web & App MX] Pablo . · 1. Lead · $0
-  - NUEVO · No especificado · [Desarrollo Web & App MX] Rafael Antonio Juárez Domínguez . · 1. Lead · $0
-  - NUEVO · No especificado · [Estrategia Digital MX] Ara . · 1. Lead · $0
-  - NUEVO · No especificado · [Estrategia Digital MX] David . · 1. Lead · $0
-  - NUEVO · No especificado · [Estrategia Digital MX] Erika . · 1. Lead · $0
-  - NUEVO · No especificado · [Estrategia Digital MX] Gicel Córdoba Pech . · 1. Lead · $0
-  - NUEVO · No especificado · [Estrategia Digital MX] Jose Alvarez . · 1. Lead · $0
-  - NUEVO · No especificado · [Estrategia Digital MX] Joshua . · 1. Lead · $0
-  - NUEVO · No especificado · [Estrategia Digital MX] Mauricio Granados Hernandez . · 1. Lead · $0
-  - NUEVO · No especificado · [Estrategia Digital MX] Yugley Vanessa Abache García . · 1. Lead · $0
-  - NUEVO · Johanne Cox · Branding y Papelería Corporativa · 2. Proposal · $0
-  - NUEVO · Cybex · Desarrollo de ERP · 2. Proposal · $0
-  - NUEVO · Johanne Cox · Diseño y Desarrollo de Sitio Web · 2. Proposal · $0
-  - NUEVO · Nexalia · Diseño y Desarrollo de Tienda en Línea · 2. Proposal · $0
-  - NUEVO · Novelty Corp De México, S.A. De C.V. · Estrategia de Paid Media para eCommerce · 6. Lost · $137K
-  - NUEVO · Centro Mexicano de Fertilidad | Dr. Alberto Kably · Estrategia Digital para captación de Leads · 4. Due Diligence · $129K
-  - NUEVO · Healthical · Estrategia Digital para eCommerce · 5. Won 🎉 · $304
-  - NUEVO · Guantes Verri S.A. de C.V. · Migración de Tienda en Línea · 5. Won 🎉 · $22K
-  - NUEVO · MOBO México · Migración de VTEX a Shopify · 2. Proposal · $0
-  - NUEVO · Dipz Desarrollos · Propuesta de Nueva Línea Gráfica y Manual de Marca · 3. In Progress · $0
-  - NUEVO · Centro Mexicano de Fertilidad | Dr. Alberto Kably · Rediseño y Desarrollo de Nuevo Sitio Web · 5. Won 🎉 · $70K
-  - avanza · Nexalia · Branding y Construcción de Marca: 2. Proposal → 4. Due Diligence · $68K
-  - GANADO · Pioneer Electronics De Mexico · Desarrollo de Nuevo Sitio Web y Tienda en Línea: 4. Due Diligence → 5. Won 🎉 · $337K
-  - avanza · PM Steele · Desarrollo de Sitio Web: 3. In Progress → 4. Due Diligence · $231K
-  - GANADO · Orange · Desarrollo de Sitio Web - Migración Kometia: 3. In Progress → 5. Won 🎉 · $10K
-  - GANADO · Mireni Atelier · Diseño y Desarrollo de Tienda en Línea: 4. Due Diligence → 5. Won 🎉 · $68K
-  - PERDIDO · Comercial Treviño · Estrategia Digital: 3. In Progress → 6. Lost · $500K
-  - avanza · Paseos Polares · Estrategia Digital de Leads: 2. Proposal → 3. In Progress · $63K
-  - GANADO · PM Steele · Estrategia Digital Integral: 3. In Progress → 5. Won 🎉 · $813K
-  - GANADO · RF Travel Group · Generación de Videos Educativos: 2. Proposal → 5. Won 🎉 · $34K
-  - GANADO · Banzi · Migración de Kometia a Shopify: 3. In Progress → 5. Won 🎉 · $19K
-  - PERDIDO · Pizarromex · Migración de Tienda en Línea: 3. In Progress → 6. Lost · $75K
-  - PERDIDO · Novygi · Rediseño de Sitio Web: 3. In Progress → 6. Lost · $68K
-  - DESAPARECIDO · — · [Estrategia Digital MX] David . (estaba en 1. Lead, $0) — ¿eliminado o archivado en Attio?
-  - DESAPARECIDO · MBS Textil · Diseño de Sitio Web | A.I. (estaba en 2. Proposal, $15K) — ¿eliminado o archivado en Attio?
-  - DESAPARECIDO · Grupo Batta · Estrategia digital para nuevo eCommerce de B Hermanos (estaba en 3. In Progress, $274K) — ¿eliminado o archivado en Attio?
-  - DESAPARECIDO · Centro Mexicano de Fertilidad · Estrategia Digital para captación de Leads (estaba en 4. Due Diligence, $129K) — ¿eliminado o archivado en Attio?
-  - DESAPARECIDO · QM+3 · Desarrollo de Sitio Web + Contenido (estaba en 4. Due Diligence, $52K) — ¿eliminado o archivado en Attio?
-  - DESAPARECIDO · Centro Mexicano de Fertilidad · Rediseño y Desarrollo de Nuevo Sitio Web (estaba en 5. Won 🎉, $70K) — ¿eliminado o archivado en Attio?
-  - DESAPARECIDO · Guantes Verri · Migración de Tienda en Línea (estaba en 5. Won 🎉, $22K) — ¿eliminado o archivado en Attio?
-  - DESAPARECIDO · Healthical Marketing · Estrategia Digital para eCommerce (estaba en 5. Won 🎉, $304) — ¿eliminado o archivado en Attio?
-  - DESAPARECIDO · Novelty Corp México · Estrategia de Paid Media para eCommerce (estaba en 6. Lost, $137K) — ¿eliminado o archivado en Attio?
-  - monto · Nexalia · Branding y Construcción de Marca: $0 → $68K
-  - monto · Dipz Desarrollos · Desarrollo de Nuevo Sitio Web: $0 → $110K
-  - monto · Paseos Polares · Estrategia Digital de Leads: $0 → $63K
-  - monto · PM Steele · Estrategia Digital Integral: $424K → $813K
-  - monto · RF Travel Group · Generación de Videos Educativos: $20K → $34K
+- Pipe activo: 36 → 29 deals · $2.31M → $2.42M
+- Deals nuevos: 10 · cambiaron de etapa: 7 · desaparecidos: 14 · cambio de monto: 4
+  - NUEVO · — · Branding y Naming para Nueva Marca Fintech · 2. Proposal · $265K
+  - NUEVO · Human Reset Hub · Diseño y Desarrollo de Sitio Web · 2. Proposal · $0
+  - NUEVO · Human Reset Hub · Estrategia Digital para Lanzamiento de Marca · 2. Proposal · $0
+  - NUEVO · Joy Tecnica Plastica · Diseño y Desarrollo de Sitio Web · 1. Lead · $0
+  - NUEVO · — · Naming y Branding para Marca de pouches de energía · 1. Lead · $0
+  - NUEVO · — · Diseño y Desarrollo de Tienda en Línea · 1. Lead · $0
+  - NUEVO · AURE Climatización · Diseño y Desarrollo de Sitio Web · 2. Proposal · $0
+  - NUEVO · Acuario Michin · Estrategia Digital · 1. Lead · $0
+  - NUEVO · Cybex · Expansión de Tiendas a LATAM · 1. Lead · $0
+  - NUEVO · ROSTRO Taquería · Estrategia Digital y de Contenido para Restaurante · 1. Lead · $0
+  - PERDIDO · Dipz Desarrollos · Desarrollo de Nuevo Sitio Web: 3. In Progress → 6. Lost · $110K
+  - PERDIDO · Dipz Desarrollos · Propuesta de Nueva Línea Gráfica y Manual de Marca: 3. In Progress → 6. Lost · $0
+  - avanza · Paseos Polares · Estrategia Digital de Leads: 3. In Progress → 4. Due Diligence · $63K
+  - PERDIDO · MOOVILUM · Desarrollo de Tienda en Línea: 2. Proposal → 6. Lost · $160K
+  - avanza · Nexalia · Diseño y Desarrollo de Tienda en Línea: 2. Proposal → 3. In Progress · $168K
+  - avanza · Johanne Cox · Diseño y Desarrollo de Sitio Web: 2. Proposal → 3. In Progress · $48K
+  - avanza · Johanne Cox · Branding y Papelería Corporativa: 2. Proposal → 3. In Progress · $28K
+  - DESAPARECIDO · No especificado · [Desarrollo Web & App MX] Jordan Chico . (estaba en 1. Lead, $0) — ¿eliminado o archivado en Attio?
+  - DESAPARECIDO · No especificado · [Desarrollo Web & App MX] Pablo . (estaba en 1. Lead, $0) — ¿eliminado o archivado en Attio?
+  - DESAPARECIDO · No especificado · [Desarrollo Web & App MX] Rafael Antonio Juárez Domínguez . (estaba en 1. Lead, $0) — ¿eliminado o archivado en Attio?
+  - DESAPARECIDO · No especificado · [Estrategia Digital MX] Ara . (estaba en 1. Lead, $0) — ¿eliminado o archivado en Attio?
+  - DESAPARECIDO · No especificado · [Estrategia Digital MX] David . (estaba en 1. Lead, $0) — ¿eliminado o archivado en Attio?
+  - DESAPARECIDO · No especificado · [Estrategia Digital MX] Erika . (estaba en 1. Lead, $0) — ¿eliminado o archivado en Attio?
+  - DESAPARECIDO · No especificado · [Estrategia Digital MX] Gicel Córdoba Pech . (estaba en 1. Lead, $0) — ¿eliminado o archivado en Attio?
+  - DESAPARECIDO · No especificado · [Estrategia Digital MX] Jose Alvarez . (estaba en 1. Lead, $0) — ¿eliminado o archivado en Attio?
+  - DESAPARECIDO · No especificado · [Estrategia Digital MX] Joshua . (estaba en 1. Lead, $0) — ¿eliminado o archivado en Attio?
+  - DESAPARECIDO · No especificado · [Estrategia Digital MX] Mauricio Granados Hernandez . (estaba en 1. Lead, $0) — ¿eliminado o archivado en Attio?
+  - DESAPARECIDO · No especificado · [Estrategia Digital MX] Yugley Vanessa Abache García . (estaba en 1. Lead, $0) — ¿eliminado o archivado en Attio?
+  - DESAPARECIDO · ZURES Seguridad · Estrategia Digital para Captación de Clientes (estaba en 2. Proposal, $0) — ¿eliminado o archivado en Attio?
+  - DESAPARECIDO · Grupo Batta · Rediseño y Desarrollo de Nuevo Sitio Web | Cash Móvil (estaba en 2. Proposal, $0) — ¿eliminado o archivado en Attio?
+  - DESAPARECIDO · Bradescard · Sitio Web - Bradescard (estaba en 3. In Progress, $288K) — ¿eliminado o archivado en Attio?
+  - monto · MOOVILUM · Desarrollo de Tienda en Línea: $0 → $160K
+  - monto · Nexalia · Diseño y Desarrollo de Tienda en Línea: $0 → $168K
+  - monto · Johanne Cox · Diseño y Desarrollo de Sitio Web: $0 → $48K
+  - monto · Johanne Cox · Branding y Papelería Corporativa: $0 → $28K
 
 ## Avisos
 
-- **INFO** · deal #12 'App de Matchmaking para Doctores': sin empresa asociada.
-- **INFO** · deal #41 'Diseño y Desarrollo de Sitio Web': sin empresa asociada.
-- **INFO** · deal #49 'Estrategia de Contenidos Rumbo al Mundial 2026': sin empresa asociada.
-- **INFO** · deal #78 'Naming y Branding de Nueva Empresa': sin empresa asociada.
-- **INFO** · Este snapshot ya trae 'id' de Attio pero el anterior no: los deals se emparejan por empresa+nombre solo en este cambio; desde ahora se seguirán por id.
-- **INFO** · 20 deal(s) activo(s) sin monto en Attio.
+- **INFO** · deal #10 'Naming y Branding de Nueva Empresa': sin empresa asociada.
+- **INFO** · deal #21 'Diseño y Desarrollo de Sitio Web': sin empresa asociada.
+- **INFO** · deal #26 'Estrategia de Contenidos Rumbo al Mundial 2026': sin empresa asociada.
+- **INFO** · deal #50 'App de Matchmaking para Doctores': sin empresa asociada.
+- **INFO** · deal #77 'Branding y Naming para Nueva Marca Fintech': sin empresa asociada.
+- **INFO** · deal #81 'Naming y Branding para Marca de pouches de energía': sin empresa asociada.
+- **INFO** · deal #82 'Diseño y Desarrollo de Tienda en Línea': sin empresa asociada.
+- **INFO** · 11 deal(s) activo(s) sin monto en Attio.
