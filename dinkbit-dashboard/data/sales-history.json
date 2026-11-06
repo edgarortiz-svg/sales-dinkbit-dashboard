@@ -1,7 +1,9 @@
 {
  "meta": {
   "source": "SALES - dinkbit.xlsx",
-  "generated": "2026-09-24T13:12:55",
+  "source_sha256_12": "52523cdb5d11",
+  "generated": "2026-11-06T11:18:54",
+  "tool_version": 2,
   "currency": "MXN",
   "quarters": [
    "2021-Q4",
@@ -21,12 +23,13 @@
    "2025-Q2",
    "2025-Q3",
    "2026-Q1",
-   "2026-Q2"
+   "2026-Q2",
+   "2026-Q3"
   ],
   "missing_quarters": [
    "2025-Q4"
   ],
-  "record_count": 742,
+  "record_count": 785,
   "taxonomy_policy": "as-is (sin normalizar)",
   "hit_rate_definition": {
    "revenue": "Accrued / (Pending + Lost + Accrued)  [formula del Excel]",
@@ -35,58 +38,198 @@
   "catalogs": {
    "area": {
     "Desarrollo": 377,
-    "Marketing": 243,
-    "Web & App Development": 60,
+    "Marketing": 251,
+    "Web & App Development": 91,
     "Diseño": 57,
-    "Design": 5
+    "Design": 9
    },
    "origen": {
-    "Network": 396,
+    "Network": 413,
     "Contacto": 147,
     "Existente": 122,
     "Sortlist": 33,
-    "Active Client": 11,
-    "Direct Contact": 9,
-    "Former Client": 8,
-    "Shopify": 6,
+    "Active Client": 15,
+    "Direct Contact": 15,
+    "Former Client": 11,
+    "Kometia": 10,
+    "Shopify": 8,
     "PR and Events": 5,
-    "Kometia": 4,
-    "Linked In": 1
+    "Campaigns": 4,
+    "Linked In": 2
    },
    "proyecto": {
     "Estrategia Digital": 210,
     "Sitio Web": 198,
     "Shopify": 98,
+    "Online Store": 41,
     "Consultoría": 39,
-    "Branding": 34,
+    "Branding": 37,
     "Desarrollo Flexible": 34,
-    "Online Store": 25,
-    "Website": 22,
-    "Marketing Strategy": 21,
+    "Website": 31,
+    "Marketing Strategy": 29,
     "Material Gráfico": 14,
     "Plataforma": 11,
+    "Development Consultancy": 8,
+    "Digital Platform": 8,
     "Proyecto": 8,
-    "Digital Platform": 7,
     "UX/UI": 5,
-    "Development Consultancy": 5,
     "App móvil": 4,
-    "Graphic Digital Materials": 2,
-    "Campaña": 1,
+    "Graphic Digital Materials": 3,
+    "Google Workspace": 2,
+    "Agile Development": 1,
     "Banding": 1,
+    "Campaña": 1,
     "Mantenimiento y Mejora": 1,
-    "Mobile App": 1,
-    "Google Workspace": 1
+    "Mobile App": 1
    },
    "status": {
-    "Perdida": 304,
-    "Ganada": 222,
-    "Pendiente": 216
+    "Perdida": 322,
+    "Ganada": 235,
+    "Pendiente": 228
    }
-  }
+  },
+  "quality": [
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q4 | 2021",
+    "msg": "[Q4 | 2021] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q1 | 2022",
+    "msg": "[Q1 | 2022] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q2 | 2022 ",
+    "msg": "[Q2 | 2022 ] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q3 | 2022",
+    "msg": "[Q3 | 2022] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q4 | 2022",
+    "msg": "[Q4 | 2022] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q1 | 2023",
+    "msg": "[Q1 | 2023] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q2 | 2023",
+    "msg": "[Q2 | 2023] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q3 | 2023",
+    "msg": "[Q3 | 2023] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q4 | 2023",
+    "msg": "[Q4 | 2023] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q1 | 2024",
+    "msg": "[Q1 | 2024] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q2 | 2024",
+    "msg": "[Q2 | 2024] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q3 | 2024",
+    "msg": "[Q3 | 2024] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q4 | 2024",
+    "msg": "[Q4 | 2024] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q1 | 2025",
+    "msg": "[Q1 | 2025] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q2 | 2025",
+    "msg": "[Q2 | 2025] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q3 | 2025",
+    "msg": "[Q3 | 2025] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q1 | 2026",
+    "msg": "[Q1 | 2026] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "fecha_fuera_de_trimestre",
+    "sheet": "Q2 | 2026",
+    "msg": "[Q2 | 2026] fila 69 (Novelty Corp De México, S.A. De C.V.): la fecha 7.2026 cae fuera del trimestre."
+   },
+   {
+    "level": "warn",
+    "code": "fecha_fuera_de_trimestre",
+    "sheet": "Q2 | 2026",
+    "msg": "[Q2 | 2026] fila 70 (REAC Automatizaciones): la fecha 7.2026 cae fuera del trimestre."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q2 | 2026",
+    "msg": "[Q2 | 2026] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "warn",
+    "code": "sin_total_resumen",
+    "sheet": "Q3 | 2026",
+    "msg": "[Q3 | 2026] no se encontró el Total del resumen 'Propuestas | General'; no se pudo validar el conteo."
+   },
+   {
+    "level": "info",
+    "code": "trimestres_sin_hoja",
+    "msg": "Trimestres sin hoja en el Excel (se muestran como hueco 'SIN REPORTE'): 2025-Q4."
+   },
+   {
+    "level": "info",
+    "code": "posible_typo",
+    "msg": "proyecto: 'Banding' (1) se parece a 'Branding' (37); ¿typo? (se respeta tal cual)."
+   }
+  ]
  },
  "records": [
   {
-   "id": "2021-Q4-001",
+   "id": "2021-Q4-a531d692",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -100,7 +243,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2021-Q4-002",
+   "id": "2021-Q4-0f267a0c",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -114,7 +257,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2021-Q4-003",
+   "id": "2021-Q4-283c50e5",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -128,7 +271,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2021-Q4-004",
+   "id": "2021-Q4-9e573422",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -142,7 +285,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2021-Q4-005",
+   "id": "2021-Q4-57ec3897",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -156,7 +299,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2021-Q4-006",
+   "id": "2021-Q4-a3d3494a",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -170,7 +313,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2021-Q4-007",
+   "id": "2021-Q4-544fd4d0",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -184,7 +327,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2021-Q4-008",
+   "id": "2021-Q4-62e5d6ee",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -198,7 +341,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2021-Q4-009",
+   "id": "2021-Q4-5f28aabe",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -212,7 +355,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2021-Q4-010",
+   "id": "2021-Q4-e5b1d97b",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -226,7 +369,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2021-Q4-011",
+   "id": "2021-Q4-837b3468",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -240,7 +383,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2021-Q4-012",
+   "id": "2021-Q4-f400860a",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -254,7 +397,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2021-Q4-013",
+   "id": "2021-Q4-bc06f26b",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -268,7 +411,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2021-Q4-014",
+   "id": "2021-Q4-49d1db4a",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -282,7 +425,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2021-Q4-015",
+   "id": "2021-Q4-c0c0b0e1",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -296,7 +439,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2021-Q4-016",
+   "id": "2021-Q4-540b5ea1",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -310,7 +453,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2021-Q4-017",
+   "id": "2021-Q4-b0af62e8",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -324,7 +467,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2021-Q4-018",
+   "id": "2021-Q4-a5c4a7ed",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -338,7 +481,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2021-Q4-019",
+   "id": "2021-Q4-b7315a44",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -352,7 +495,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2021-Q4-020",
+   "id": "2021-Q4-a83315e2",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -366,7 +509,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2021-Q4-021",
+   "id": "2021-Q4-4c5777ff",
    "quarter": "2021-Q4",
    "year": 2021,
    "q": 4,
@@ -380,7 +523,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-001",
+   "id": "2022-Q1-3ceb7006",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -394,7 +537,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-002",
+   "id": "2022-Q1-cd055181",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -408,7 +551,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-003",
+   "id": "2022-Q1-2856ba56",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -422,7 +565,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-004",
+   "id": "2022-Q1-f865f446",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -436,7 +579,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-005",
+   "id": "2022-Q1-a67fb170",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -450,7 +593,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-006",
+   "id": "2022-Q1-01b468e3",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -464,7 +607,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q1-007",
+   "id": "2022-Q1-0ddaee07",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -478,7 +621,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-008",
+   "id": "2022-Q1-9b5f4fc0",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -492,7 +635,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-009",
+   "id": "2022-Q1-2f3804d0",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -506,7 +649,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-010",
+   "id": "2022-Q1-3aac9ca4",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -520,7 +663,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q1-011",
+   "id": "2022-Q1-c1db5980",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -534,7 +677,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-012",
+   "id": "2022-Q1-bf32a4b8",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -548,7 +691,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-013",
+   "id": "2022-Q1-b05f8ca5",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -562,7 +705,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-014",
+   "id": "2022-Q1-a020c1f9",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -576,7 +719,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-015",
+   "id": "2022-Q1-4f2f6777",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -590,7 +733,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-016",
+   "id": "2022-Q1-a6f905e1",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -604,7 +747,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-017",
+   "id": "2022-Q1-c50c0761",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -618,7 +761,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-018",
+   "id": "2022-Q1-bb70c21a",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -632,7 +775,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-019",
+   "id": "2022-Q1-88bb0c43",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -646,7 +789,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q1-020",
+   "id": "2022-Q1-3e5534ce",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -660,7 +803,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-021",
+   "id": "2022-Q1-6d017b8a",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -674,7 +817,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-022",
+   "id": "2022-Q1-6d017b8a-2",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -688,7 +831,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-023",
+   "id": "2022-Q1-6ef6da3e",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -702,7 +845,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-024",
+   "id": "2022-Q1-61ec64f3",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -716,7 +859,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-025",
+   "id": "2022-Q1-2d24ad3e",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -730,7 +873,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-026",
+   "id": "2022-Q1-f981895c",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -744,7 +887,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-027",
+   "id": "2022-Q1-593aca1e",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -758,7 +901,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-028",
+   "id": "2022-Q1-7e4dcbd8",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -772,7 +915,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-029",
+   "id": "2022-Q1-66b3d7e3",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -786,7 +929,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q1-030",
+   "id": "2022-Q1-76038c52",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -800,7 +943,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q1-031",
+   "id": "2022-Q1-23327bf6",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -814,7 +957,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-032",
+   "id": "2022-Q1-60b051c0",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -828,7 +971,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q1-033",
+   "id": "2022-Q1-89f155e4",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -842,7 +985,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q1-034",
+   "id": "2022-Q1-5b9ff6c4",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -856,7 +999,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-035",
+   "id": "2022-Q1-55507d83",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -870,7 +1013,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-036",
+   "id": "2022-Q1-60fe3e12",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -884,7 +1027,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q1-037",
+   "id": "2022-Q1-ff56060c",
    "quarter": "2022-Q1",
    "year": 2022,
    "q": 1,
@@ -898,7 +1041,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q2-001",
+   "id": "2022-Q2-ddd73383",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -912,7 +1055,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-002",
+   "id": "2022-Q2-832440c0",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -926,7 +1069,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q2-003",
+   "id": "2022-Q2-9202aff9",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -940,7 +1083,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-004",
+   "id": "2022-Q2-a9add5c5",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -954,7 +1097,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-005",
+   "id": "2022-Q2-c54b7594",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -968,7 +1111,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-006",
+   "id": "2022-Q2-81dfa27b",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -982,7 +1125,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q2-007",
+   "id": "2022-Q2-badb92a1",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -996,7 +1139,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q2-008",
+   "id": "2022-Q2-800a6efa",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1010,7 +1153,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q2-009",
+   "id": "2022-Q2-eb219710",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1024,7 +1167,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-010",
+   "id": "2022-Q2-c19b81b8",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1038,7 +1181,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-011",
+   "id": "2022-Q2-22b15611",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1052,7 +1195,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-012",
+   "id": "2022-Q2-1d42e921",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1066,7 +1209,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-013",
+   "id": "2022-Q2-ac32a636",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1080,7 +1223,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-014",
+   "id": "2022-Q2-febd3b5c",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1094,7 +1237,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q2-015",
+   "id": "2022-Q2-91db5f67",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1108,7 +1251,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-016",
+   "id": "2022-Q2-eebff0bf",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1122,7 +1265,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-017",
+   "id": "2022-Q2-e7011ac9",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1136,7 +1279,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-018",
+   "id": "2022-Q2-5cbf5eea",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1150,7 +1293,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-019",
+   "id": "2022-Q2-8d45d64c",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1164,7 +1307,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-020",
+   "id": "2022-Q2-884605c9",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1178,7 +1321,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-021",
+   "id": "2022-Q2-84bbb54e",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1192,7 +1335,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-022",
+   "id": "2022-Q2-0748bc13",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1206,7 +1349,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-023",
+   "id": "2022-Q2-20acdca1",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1220,7 +1363,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-024",
+   "id": "2022-Q2-8b2f97c1",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1234,7 +1377,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-025",
+   "id": "2022-Q2-80de08bb",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1248,7 +1391,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-026",
+   "id": "2022-Q2-f961db29",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1262,7 +1405,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-027",
+   "id": "2022-Q2-aafee16b",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1276,7 +1419,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-028",
+   "id": "2022-Q2-6d281611",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1290,7 +1433,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q2-029",
+   "id": "2022-Q2-baa31b7a",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1304,7 +1447,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q2-030",
+   "id": "2022-Q2-22416e2a",
    "quarter": "2022-Q2",
    "year": 2022,
    "q": 2,
@@ -1318,7 +1461,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-001",
+   "id": "2022-Q3-c471b297",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1332,7 +1475,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q3-002",
+   "id": "2022-Q3-f5139bd3",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1346,7 +1489,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q3-003",
+   "id": "2022-Q3-68e87f9e",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1360,7 +1503,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q3-004",
+   "id": "2022-Q3-3cea6086",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1374,7 +1517,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q3-005",
+   "id": "2022-Q3-16adfc56",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1388,7 +1531,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-006",
+   "id": "2022-Q3-43e013fa",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1402,7 +1545,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-007",
+   "id": "2022-Q3-77673712",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1416,7 +1559,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-008",
+   "id": "2022-Q3-eb34cc06",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1430,7 +1573,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-009",
+   "id": "2022-Q3-0f0f9d08",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1444,7 +1587,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-010",
+   "id": "2022-Q3-9aedea17",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1458,7 +1601,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-011",
+   "id": "2022-Q3-e5d04547",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1472,7 +1615,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-012",
+   "id": "2022-Q3-f39a0216",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1486,7 +1629,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-013",
+   "id": "2022-Q3-9aedea17-2",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1500,7 +1643,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-014",
+   "id": "2022-Q3-01a94437",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1514,7 +1657,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-015",
+   "id": "2022-Q3-fe2d2097",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1528,7 +1671,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-016",
+   "id": "2022-Q3-07e9e464",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1542,7 +1685,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-017",
+   "id": "2022-Q3-f7f01c84",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1556,7 +1699,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-018",
+   "id": "2022-Q3-0cc77f7b",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1570,7 +1713,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-019",
+   "id": "2022-Q3-0d365537",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1584,7 +1727,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-020",
+   "id": "2022-Q3-83a48f11",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1598,7 +1741,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-021",
+   "id": "2022-Q3-3a52d856",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1612,7 +1755,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-022",
+   "id": "2022-Q3-a37a6343",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1626,7 +1769,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-023",
+   "id": "2022-Q3-06d86b1b",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1640,7 +1783,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-024",
+   "id": "2022-Q3-f7f01c84-2",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1654,7 +1797,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-025",
+   "id": "2022-Q3-5a835e37",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1668,7 +1811,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q3-026",
+   "id": "2022-Q3-452276da",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1682,7 +1825,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q3-027",
+   "id": "2022-Q3-b8c9d920",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1696,7 +1839,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-028",
+   "id": "2022-Q3-29d50c6d",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1710,7 +1853,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-029",
+   "id": "2022-Q3-34c9a1ba",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1724,7 +1867,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-030",
+   "id": "2022-Q3-5cb9e945",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1738,7 +1881,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-031",
+   "id": "2022-Q3-c9675a32",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1752,7 +1895,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-032",
+   "id": "2022-Q3-87977240",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1766,7 +1909,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-033",
+   "id": "2022-Q3-2cc267ab",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1780,7 +1923,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-034",
+   "id": "2022-Q3-78760872",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1794,7 +1937,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-035",
+   "id": "2022-Q3-c80ff532",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1808,7 +1951,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q3-036",
+   "id": "2022-Q3-7756c5fc",
    "quarter": "2022-Q3",
    "year": 2022,
    "q": 3,
@@ -1822,7 +1965,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-001",
+   "id": "2022-Q4-228d6719",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -1836,7 +1979,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q4-002",
+   "id": "2022-Q4-e6c82f7f",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -1850,7 +1993,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q4-003",
+   "id": "2022-Q4-c40f0f84",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -1864,7 +2007,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q4-004",
+   "id": "2022-Q4-467b0b1a",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -1878,7 +2021,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q4-005",
+   "id": "2022-Q4-51ae016c",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -1892,7 +2035,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q4-006",
+   "id": "2022-Q4-bcd3254e",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -1906,7 +2049,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-007",
+   "id": "2022-Q4-f0c70ee5",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -1920,7 +2063,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-008",
+   "id": "2022-Q4-fc4debb0",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -1934,7 +2077,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-009",
+   "id": "2022-Q4-d72b49a6",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -1948,7 +2091,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-010",
+   "id": "2022-Q4-3ca7150e",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -1962,7 +2105,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-011",
+   "id": "2022-Q4-22c8764f",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -1976,7 +2119,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-012",
+   "id": "2022-Q4-b5b05815",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -1990,7 +2133,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-013",
+   "id": "2022-Q4-037970aa",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2004,7 +2147,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-014",
+   "id": "2022-Q4-762a5416",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2018,7 +2161,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-015",
+   "id": "2022-Q4-99de2259",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2032,7 +2175,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-016",
+   "id": "2022-Q4-89496f84",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2046,7 +2189,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-017",
+   "id": "2022-Q4-09223b76",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2060,7 +2203,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-018",
+   "id": "2022-Q4-5a290bea",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2074,7 +2217,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-019",
+   "id": "2022-Q4-7cc010ea",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2088,7 +2231,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-020",
+   "id": "2022-Q4-0d16c07f",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2102,7 +2245,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q4-021",
+   "id": "2022-Q4-f8cb7f8c",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2116,7 +2259,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q4-022",
+   "id": "2022-Q4-aa130825",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2130,7 +2273,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2022-Q4-023",
+   "id": "2022-Q4-2125c887",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2144,7 +2287,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-024",
+   "id": "2022-Q4-2233625d",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2158,7 +2301,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-025",
+   "id": "2022-Q4-c6c81c30",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2172,7 +2315,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-026",
+   "id": "2022-Q4-db9a89bc",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2186,7 +2329,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-027",
+   "id": "2022-Q4-2e0c69f7",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2200,7 +2343,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-028",
+   "id": "2022-Q4-e89e22e9",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2214,7 +2357,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-029",
+   "id": "2022-Q4-426299c8",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2228,7 +2371,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-030",
+   "id": "2022-Q4-9b52dbe8",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2242,7 +2385,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-031",
+   "id": "2022-Q4-06cdb2db",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2256,7 +2399,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-032",
+   "id": "2022-Q4-914ab4cb",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2270,7 +2413,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-033",
+   "id": "2022-Q4-31a733b2",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2284,7 +2427,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-034",
+   "id": "2022-Q4-ad09b734",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2298,7 +2441,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2022-Q4-035",
+   "id": "2022-Q4-1ec86ab5",
    "quarter": "2022-Q4",
    "year": 2022,
    "q": 4,
@@ -2312,7 +2455,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-001",
+   "id": "2023-Q1-bcc84120",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2326,7 +2469,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q1-002",
+   "id": "2023-Q1-df10c8fe",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2340,7 +2483,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-003",
+   "id": "2023-Q1-720789ee",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2354,7 +2497,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q1-004",
+   "id": "2023-Q1-de472fdb",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2368,7 +2511,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-005",
+   "id": "2023-Q1-9f151e3e",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2382,7 +2525,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q1-006",
+   "id": "2023-Q1-a465426a",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2396,7 +2539,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q1-007",
+   "id": "2023-Q1-bb11425a",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2410,7 +2553,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-008",
+   "id": "2023-Q1-693dae4f",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2424,7 +2567,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-009",
+   "id": "2023-Q1-1e33ca35",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2438,7 +2581,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-010",
+   "id": "2023-Q1-2a8157b6",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2452,7 +2595,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q1-011",
+   "id": "2023-Q1-f775bbe0",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2466,7 +2609,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-012",
+   "id": "2023-Q1-4e0b0aa2",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2480,7 +2623,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-013",
+   "id": "2023-Q1-1d3e741e",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2494,7 +2637,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-014",
+   "id": "2023-Q1-f6d2e11f",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2508,7 +2651,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-015",
+   "id": "2023-Q1-04958aa1",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2522,7 +2665,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-016",
+   "id": "2023-Q1-4fab78d6",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2536,7 +2679,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q1-017",
+   "id": "2023-Q1-fd93a0c8",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2550,7 +2693,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q1-018",
+   "id": "2023-Q1-58c14465",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2564,7 +2707,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q1-019",
+   "id": "2023-Q1-b0820be6",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2578,7 +2721,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-020",
+   "id": "2023-Q1-9d356fcf",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2592,7 +2735,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-021",
+   "id": "2023-Q1-89f0fb5f",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2606,7 +2749,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-022",
+   "id": "2023-Q1-bb81081c",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2620,7 +2763,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-023",
+   "id": "2023-Q1-a0c4bcb8",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2634,7 +2777,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-024",
+   "id": "2023-Q1-faa6a106",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2648,7 +2791,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-025",
+   "id": "2023-Q1-e2f96466",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2662,7 +2805,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q1-026",
+   "id": "2023-Q1-61fdaa1e",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2676,7 +2819,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-027",
+   "id": "2023-Q1-43bd3216",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2690,7 +2833,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-028",
+   "id": "2023-Q1-90c01f3e",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2704,7 +2847,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-029",
+   "id": "2023-Q1-98209aed",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2718,7 +2861,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-030",
+   "id": "2023-Q1-64d7c4d0",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2732,7 +2875,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-031",
+   "id": "2023-Q1-ea79c833",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2746,7 +2889,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-032",
+   "id": "2023-Q1-589f461e",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2760,7 +2903,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q1-033",
+   "id": "2023-Q1-1d435e9e",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2774,7 +2917,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-034",
+   "id": "2023-Q1-0059e988",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2788,7 +2931,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q1-035",
+   "id": "2023-Q1-4909d856",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2802,7 +2945,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q1-036",
+   "id": "2023-Q1-a61a2370",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2816,7 +2959,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q1-037",
+   "id": "2023-Q1-90c6f09f",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2830,7 +2973,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q1-038",
+   "id": "2023-Q1-3cf25bf3",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2844,7 +2987,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q1-039",
+   "id": "2023-Q1-18d5dc9d",
    "quarter": "2023-Q1",
    "year": 2023,
    "q": 1,
@@ -2858,7 +3001,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q2-001",
+   "id": "2023-Q2-d2458a7a",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -2872,7 +3015,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q2-002",
+   "id": "2023-Q2-f01fafed",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -2886,7 +3029,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-003",
+   "id": "2023-Q2-bf3ea14f",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -2900,7 +3043,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q2-004",
+   "id": "2023-Q2-3623deb7",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -2914,7 +3057,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q2-005",
+   "id": "2023-Q2-341ead17",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -2928,7 +3071,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q2-006",
+   "id": "2023-Q2-d082acd4",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -2942,7 +3085,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q2-007",
+   "id": "2023-Q2-1532cc2c",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -2956,7 +3099,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q2-008",
+   "id": "2023-Q2-d3d13039",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -2970,7 +3113,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q2-009",
+   "id": "2023-Q2-790a37f3",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -2984,7 +3127,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-010",
+   "id": "2023-Q2-b782f6db",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -2998,7 +3141,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-011",
+   "id": "2023-Q2-871b3c26",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3012,7 +3155,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-012",
+   "id": "2023-Q2-7f993d94",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3026,7 +3169,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-013",
+   "id": "2023-Q2-dec945bb",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3040,7 +3183,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-014",
+   "id": "2023-Q2-0e84630e",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3054,7 +3197,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-015",
+   "id": "2023-Q2-2e66653a",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3068,7 +3211,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-016",
+   "id": "2023-Q2-563772d5",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3082,7 +3225,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-017",
+   "id": "2023-Q2-968dc0f6",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3096,7 +3239,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-018",
+   "id": "2023-Q2-9d837e06",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3110,7 +3253,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-019",
+   "id": "2023-Q2-058fb125",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3124,7 +3267,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-020",
+   "id": "2023-Q2-19c44512",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3138,7 +3281,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q2-021",
+   "id": "2023-Q2-8cab2046",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3152,7 +3295,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q2-022",
+   "id": "2023-Q2-6394f401",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3166,7 +3309,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q2-023",
+   "id": "2023-Q2-0db8eb8b",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3180,7 +3323,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q2-024",
+   "id": "2023-Q2-3569e78d",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3194,7 +3337,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q2-025",
+   "id": "2023-Q2-a4574550",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3208,7 +3351,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q2-026",
+   "id": "2023-Q2-de6571a8",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3222,7 +3365,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q2-027",
+   "id": "2023-Q2-8ee2bc62",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3236,7 +3379,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-028",
+   "id": "2023-Q2-c049dbf8",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3250,7 +3393,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-029",
+   "id": "2023-Q2-b8e44ea7",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3264,7 +3407,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-030",
+   "id": "2023-Q2-f76ce219",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3278,7 +3421,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-031",
+   "id": "2023-Q2-f72e8c66",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3292,7 +3435,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-032",
+   "id": "2023-Q2-7c47b71f",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3306,7 +3449,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-033",
+   "id": "2023-Q2-a64998ec",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3320,7 +3463,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-034",
+   "id": "2023-Q2-78114a8b",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3334,7 +3477,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-035",
+   "id": "2023-Q2-a68f7836",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3348,7 +3491,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-036",
+   "id": "2023-Q2-2cac7a8a",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3362,7 +3505,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-037",
+   "id": "2023-Q2-0b4a92f6",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3376,7 +3519,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q2-038",
+   "id": "2023-Q2-6b76ea05",
    "quarter": "2023-Q2",
    "year": 2023,
    "q": 2,
@@ -3390,7 +3533,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q3-001",
+   "id": "2023-Q3-70a09dea",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3404,7 +3547,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q3-002",
+   "id": "2023-Q3-7a246e84",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3418,7 +3561,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q3-003",
+   "id": "2023-Q3-2d7a35ee",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3432,7 +3575,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q3-004",
+   "id": "2023-Q3-b420f35f",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3446,7 +3589,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q3-005",
+   "id": "2023-Q3-67f131ea",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3460,7 +3603,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q3-006",
+   "id": "2023-Q3-6fad7e34",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3474,7 +3617,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q3-007",
+   "id": "2023-Q3-d095cc66",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3488,7 +3631,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q3-008",
+   "id": "2023-Q3-7c47f5e1",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3502,7 +3645,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q3-009",
+   "id": "2023-Q3-d7778c35",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3516,7 +3659,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q3-010",
+   "id": "2023-Q3-a56378a1",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3530,7 +3673,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q3-011",
+   "id": "2023-Q3-212bd36d",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3544,7 +3687,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q3-012",
+   "id": "2023-Q3-cc17eabd",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3558,7 +3701,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q3-013",
+   "id": "2023-Q3-c5ed3df3",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3572,7 +3715,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-014",
+   "id": "2023-Q3-58a4728b",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3586,7 +3729,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-015",
+   "id": "2023-Q3-26ea74ec",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3600,7 +3743,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-016",
+   "id": "2023-Q3-ebeda6bd",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3614,7 +3757,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-017",
+   "id": "2023-Q3-b3118fa4",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3628,7 +3771,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-018",
+   "id": "2023-Q3-904ea659",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3642,7 +3785,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-019",
+   "id": "2023-Q3-f3174015",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3656,7 +3799,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-020",
+   "id": "2023-Q3-2e7a87b1",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3670,7 +3813,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-021",
+   "id": "2023-Q3-51dd8508",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3684,7 +3827,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-022",
+   "id": "2023-Q3-d60bfca5",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3698,7 +3841,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-023",
+   "id": "2023-Q3-7e940074",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3712,7 +3855,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-024",
+   "id": "2023-Q3-e4f90aa3",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3726,7 +3869,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-025",
+   "id": "2023-Q3-c0e09232",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3740,7 +3883,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-026",
+   "id": "2023-Q3-72760411",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3754,7 +3897,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q3-027",
+   "id": "2023-Q3-8e1c89b3",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3768,7 +3911,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q3-028",
+   "id": "2023-Q3-8776e8d5",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3782,7 +3925,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q3-029",
+   "id": "2023-Q3-0e97c2fc",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3796,7 +3939,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q3-030",
+   "id": "2023-Q3-7f7ec88a",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3810,7 +3953,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q3-031",
+   "id": "2023-Q3-58522e8f",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3824,7 +3967,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q3-032",
+   "id": "2023-Q3-dd339077",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3838,7 +3981,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q3-033",
+   "id": "2023-Q3-20fc803e",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3852,7 +3995,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q3-034",
+   "id": "2023-Q3-224a960b",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3866,7 +4009,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q3-035",
+   "id": "2023-Q3-53b18bbf",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3880,7 +4023,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q3-036",
+   "id": "2023-Q3-3d9414bf",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3894,7 +4037,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-037",
+   "id": "2023-Q3-1f563da5",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3908,7 +4051,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-038",
+   "id": "2023-Q3-40bc99e3",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3922,7 +4065,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-039",
+   "id": "2023-Q3-e75a3901",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3936,7 +4079,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-040",
+   "id": "2023-Q3-a12884de",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3950,7 +4093,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-041",
+   "id": "2023-Q3-1afe2f54",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3964,7 +4107,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-042",
+   "id": "2023-Q3-327c8412",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3978,7 +4121,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q3-043",
+   "id": "2023-Q3-8422fcd9",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -3992,7 +4135,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q3-044",
+   "id": "2023-Q3-d8b6aa32",
    "quarter": "2023-Q3",
    "year": 2023,
    "q": 3,
@@ -4006,7 +4149,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q4-001",
+   "id": "2023-Q4-9ca7d880",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4020,7 +4163,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q4-002",
+   "id": "2023-Q4-3485896d",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4034,7 +4177,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q4-003",
+   "id": "2023-Q4-d8085619",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4048,7 +4191,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q4-004",
+   "id": "2023-Q4-0af47295",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4062,7 +4205,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q4-005",
+   "id": "2023-Q4-82954e6e",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4076,7 +4219,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q4-006",
+   "id": "2023-Q4-bfcae9e9",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4090,7 +4233,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2023-Q4-007",
+   "id": "2023-Q4-158197c1",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4104,7 +4247,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q4-008",
+   "id": "2023-Q4-2350a0af",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4118,7 +4261,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q4-009",
+   "id": "2023-Q4-35b7bd37",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4132,7 +4275,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q4-010",
+   "id": "2023-Q4-1be8fc70",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4146,7 +4289,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q4-011",
+   "id": "2023-Q4-e78f3a43",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4160,7 +4303,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q4-012",
+   "id": "2023-Q4-5c39cb12",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4174,7 +4317,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q4-013",
+   "id": "2023-Q4-28364601",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4188,7 +4331,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q4-014",
+   "id": "2023-Q4-dbddd72a",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4202,7 +4345,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q4-015",
+   "id": "2023-Q4-f79feb6c",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4216,7 +4359,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q4-016",
+   "id": "2023-Q4-2187a0ff",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4230,7 +4373,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q4-017",
+   "id": "2023-Q4-ec673634",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4244,7 +4387,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q4-018",
+   "id": "2023-Q4-30db5756",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4258,7 +4401,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q4-019",
+   "id": "2023-Q4-aa57f4f3",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4272,7 +4415,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q4-020",
+   "id": "2023-Q4-33d889f2",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4286,7 +4429,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2023-Q4-021",
+   "id": "2023-Q4-f8b55fac",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4300,7 +4443,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q4-022",
+   "id": "2023-Q4-1c35aebd",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4314,7 +4457,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q4-023",
+   "id": "2023-Q4-0ceecc8b",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4328,7 +4471,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q4-024",
+   "id": "2023-Q4-30eb271c",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4342,7 +4485,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q4-025",
+   "id": "2023-Q4-a17c22dc",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4356,7 +4499,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q4-026",
+   "id": "2023-Q4-1da078b9",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4370,7 +4513,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q4-027",
+   "id": "2023-Q4-8a17e83e",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4384,7 +4527,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q4-028",
+   "id": "2023-Q4-83f26257",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4398,7 +4541,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q4-029",
+   "id": "2023-Q4-fea5b92a",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4412,7 +4555,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2023-Q4-030",
+   "id": "2023-Q4-23f6900b",
    "quarter": "2023-Q4",
    "year": 2023,
    "q": 4,
@@ -4426,7 +4569,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q1-001",
+   "id": "2024-Q1-00961840",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4440,7 +4583,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-002",
+   "id": "2024-Q1-aeb2e501",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4454,7 +4597,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-003",
+   "id": "2024-Q1-00ae581c",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4468,7 +4611,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-004",
+   "id": "2024-Q1-94222a37",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4482,7 +4625,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-005",
+   "id": "2024-Q1-a0e058d9",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4496,7 +4639,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-006",
+   "id": "2024-Q1-304c5c8f",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4510,7 +4653,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q1-007",
+   "id": "2024-Q1-4b192e15",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4524,7 +4667,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q1-008",
+   "id": "2024-Q1-57ed9e7d",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4538,7 +4681,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q1-009",
+   "id": "2024-Q1-03f1f319",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4552,7 +4695,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q1-010",
+   "id": "2024-Q1-0f50a9fb",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4566,7 +4709,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-011",
+   "id": "2024-Q1-b0575561",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4580,7 +4723,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-012",
+   "id": "2024-Q1-1f6e8a5f",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4594,7 +4737,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-013",
+   "id": "2024-Q1-17777170",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4608,7 +4751,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-014",
+   "id": "2024-Q1-86df9098",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4622,7 +4765,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-015",
+   "id": "2024-Q1-89468a2b",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4636,7 +4779,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-016",
+   "id": "2024-Q1-d39a8eee",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4650,7 +4793,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-017",
+   "id": "2024-Q1-3b847be0",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4664,7 +4807,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-018",
+   "id": "2024-Q1-7da0c062",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4678,7 +4821,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-019",
+   "id": "2024-Q1-a789596d",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4692,7 +4835,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-020",
+   "id": "2024-Q1-5f8d22f4",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4706,7 +4849,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-021",
+   "id": "2024-Q1-d9fb8071",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4720,7 +4863,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-022",
+   "id": "2024-Q1-2e95ef1d",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4734,7 +4877,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-023",
+   "id": "2024-Q1-d0663fc2",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4748,7 +4891,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-024",
+   "id": "2024-Q1-08d801ed",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4762,7 +4905,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-025",
+   "id": "2024-Q1-509adce3",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4776,7 +4919,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-026",
+   "id": "2024-Q1-ea584fbb",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4790,7 +4933,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-027",
+   "id": "2024-Q1-86043c03",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4804,7 +4947,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-028",
+   "id": "2024-Q1-1589f462",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4818,7 +4961,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-029",
+   "id": "2024-Q1-15f7fade",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4832,7 +4975,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q1-030",
+   "id": "2024-Q1-4f754284",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4846,7 +4989,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q1-031",
+   "id": "2024-Q1-a66d6bca",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4860,7 +5003,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q1-032",
+   "id": "2024-Q1-dc707119",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4874,7 +5017,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q1-033",
+   "id": "2024-Q1-77663e58",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4888,7 +5031,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-034",
+   "id": "2024-Q1-c7272d5e",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4902,7 +5045,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-035",
+   "id": "2024-Q1-1901d246",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4916,7 +5059,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-036",
+   "id": "2024-Q1-b98fb90e",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4930,7 +5073,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-037",
+   "id": "2024-Q1-5ca9878f",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4944,7 +5087,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-038",
+   "id": "2024-Q1-1e3502c7",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4958,7 +5101,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-039",
+   "id": "2024-Q1-d725bbe8",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4972,7 +5115,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-040",
+   "id": "2024-Q1-3406bb6b",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -4986,7 +5129,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-041",
+   "id": "2024-Q1-3c4c81f6",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -5000,7 +5143,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q1-042",
+   "id": "2024-Q1-68596a71",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -5014,7 +5157,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-043",
+   "id": "2024-Q1-3751c2f8",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -5028,7 +5171,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-044",
+   "id": "2024-Q1-834514de",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -5042,7 +5185,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-045",
+   "id": "2024-Q1-381bdd3b",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -5056,7 +5199,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-046",
+   "id": "2024-Q1-13c61588",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -5070,7 +5213,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-047",
+   "id": "2024-Q1-3f09d32e",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -5084,7 +5227,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-048",
+   "id": "2024-Q1-215384d5",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -5098,7 +5241,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q1-049",
+   "id": "2024-Q1-f684ca67",
    "quarter": "2024-Q1",
    "year": 2024,
    "q": 1,
@@ -5112,7 +5255,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-001",
+   "id": "2024-Q2-3e743ed7",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5126,7 +5269,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-002",
+   "id": "2024-Q2-c36b04e6",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5140,7 +5283,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-003",
+   "id": "2024-Q2-4a3a7d17",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5154,7 +5297,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-004",
+   "id": "2024-Q2-419a7613",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5168,7 +5311,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-005",
+   "id": "2024-Q2-ae3a2127",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5182,7 +5325,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-006",
+   "id": "2024-Q2-086c6c8a",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5196,7 +5339,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-007",
+   "id": "2024-Q2-2d2d9371",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5210,7 +5353,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-008",
+   "id": "2024-Q2-3e743ed7-2",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5224,7 +5367,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-009",
+   "id": "2024-Q2-1631538a",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5238,7 +5381,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-010",
+   "id": "2024-Q2-7062f2e6",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5252,7 +5395,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-011",
+   "id": "2024-Q2-dc282b57",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5266,7 +5409,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-012",
+   "id": "2024-Q2-1910c424",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5280,7 +5423,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-013",
+   "id": "2024-Q2-57c7e9bf",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5294,7 +5437,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-014",
+   "id": "2024-Q2-5e050cf1",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5308,7 +5451,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-015",
+   "id": "2024-Q2-23b0af95",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5322,7 +5465,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-016",
+   "id": "2024-Q2-57e7539a",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5336,7 +5479,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-017",
+   "id": "2024-Q2-52b52b8a",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5350,7 +5493,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-018",
+   "id": "2024-Q2-b79604d3",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5364,7 +5507,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-019",
+   "id": "2024-Q2-60f8feba",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5378,7 +5521,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-020",
+   "id": "2024-Q2-dfcd9dcf",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5392,7 +5535,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-021",
+   "id": "2024-Q2-ab3e267d",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5406,7 +5549,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-022",
+   "id": "2024-Q2-1ea5f5ab",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5420,7 +5563,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q2-023",
+   "id": "2024-Q2-c70f03f3",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5434,7 +5577,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-024",
+   "id": "2024-Q2-641d0d97",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5448,7 +5591,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-025",
+   "id": "2024-Q2-d59c8731",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5462,7 +5605,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-026",
+   "id": "2024-Q2-de161f78",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5476,7 +5619,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-027",
+   "id": "2024-Q2-dc78002c",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5490,7 +5633,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-028",
+   "id": "2024-Q2-8749af6c",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5504,7 +5647,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-029",
+   "id": "2024-Q2-45384444",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5518,7 +5661,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-030",
+   "id": "2024-Q2-3274e9f0",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5532,7 +5675,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-031",
+   "id": "2024-Q2-76b81eaa",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5546,7 +5689,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-032",
+   "id": "2024-Q2-861ebaca",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5560,7 +5703,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-033",
+   "id": "2024-Q2-379358d7",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5574,7 +5717,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-034",
+   "id": "2024-Q2-61bab552",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5588,7 +5731,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-035",
+   "id": "2024-Q2-1c8b7ca1",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5602,7 +5745,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-036",
+   "id": "2024-Q2-9bc06937",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5616,7 +5759,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-037",
+   "id": "2024-Q2-7fe27655",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5630,7 +5773,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-038",
+   "id": "2024-Q2-9a5e96ba",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5644,7 +5787,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-039",
+   "id": "2024-Q2-bc9c8fb8",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5658,7 +5801,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-040",
+   "id": "2024-Q2-c55e1389",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5672,7 +5815,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-041",
+   "id": "2024-Q2-9fb35530",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5686,7 +5829,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-042",
+   "id": "2024-Q2-ed18bf1e",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5700,7 +5843,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-043",
+   "id": "2024-Q2-71b69347",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5714,7 +5857,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-044",
+   "id": "2024-Q2-16acbac4",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5728,7 +5871,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q2-045",
+   "id": "2024-Q2-3d222a91",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5742,7 +5885,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q2-046",
+   "id": "2024-Q2-f2919c7d",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5756,7 +5899,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q2-047",
+   "id": "2024-Q2-e1205a57",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5770,7 +5913,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q2-048",
+   "id": "2024-Q2-b8cdf7f8",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5784,7 +5927,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q2-049",
+   "id": "2024-Q2-a196f122",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5798,7 +5941,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q2-050",
+   "id": "2024-Q2-6d01bbc1",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5812,7 +5955,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q2-051",
+   "id": "2024-Q2-a4c8966a",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5826,7 +5969,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q2-052",
+   "id": "2024-Q2-a90764ea",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5840,7 +5983,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q2-053",
+   "id": "2024-Q2-4fa4a283",
    "quarter": "2024-Q2",
    "year": 2024,
    "q": 2,
@@ -5854,7 +5997,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q3-001",
+   "id": "2024-Q3-7edae90c",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -5868,7 +6011,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q3-002",
+   "id": "2024-Q3-6e039ae5",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -5882,7 +6025,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q3-003",
+   "id": "2024-Q3-a44cf64b",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -5896,7 +6039,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q3-004",
+   "id": "2024-Q3-06d25ec7",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -5910,7 +6053,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q3-005",
+   "id": "2024-Q3-fddfb599",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -5924,7 +6067,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q3-006",
+   "id": "2024-Q3-1b95883f",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -5938,7 +6081,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q3-007",
+   "id": "2024-Q3-91fcab55",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -5952,7 +6095,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q3-008",
+   "id": "2024-Q3-f4a4c55b",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -5966,7 +6109,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q3-009",
+   "id": "2024-Q3-a8fbdbe2",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -5980,7 +6123,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q3-010",
+   "id": "2024-Q3-5d21f483",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -5994,7 +6137,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q3-011",
+   "id": "2024-Q3-849757af",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6008,7 +6151,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q3-012",
+   "id": "2024-Q3-10d9ffd4",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6022,7 +6165,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q3-013",
+   "id": "2024-Q3-1a277a63",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6036,7 +6179,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-014",
+   "id": "2024-Q3-9d4f2a31",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6050,7 +6193,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-015",
+   "id": "2024-Q3-d79bbb2e",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6064,7 +6207,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-016",
+   "id": "2024-Q3-7d9d1b73",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6078,7 +6221,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-017",
+   "id": "2024-Q3-47a819e7",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6092,7 +6235,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-018",
+   "id": "2024-Q3-e4fadc03",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6106,7 +6249,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-019",
+   "id": "2024-Q3-d113b098",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6120,7 +6263,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-020",
+   "id": "2024-Q3-41005262",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6134,7 +6277,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-021",
+   "id": "2024-Q3-edf69e70",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6148,7 +6291,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-022",
+   "id": "2024-Q3-e61c08ff",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6162,7 +6305,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-023",
+   "id": "2024-Q3-fe34693a",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6176,7 +6319,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-024",
+   "id": "2024-Q3-220c2a41",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6190,7 +6333,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-025",
+   "id": "2024-Q3-7f6a8636",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6204,7 +6347,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-026",
+   "id": "2024-Q3-fe9f3d63",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6218,7 +6361,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-027",
+   "id": "2024-Q3-4abc34b9",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6232,7 +6375,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-028",
+   "id": "2024-Q3-46525859",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6246,7 +6389,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-029",
+   "id": "2024-Q3-17f9985a",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6260,7 +6403,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-030",
+   "id": "2024-Q3-3bb63fec",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6274,7 +6417,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-031",
+   "id": "2024-Q3-d711bcce",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6288,7 +6431,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-032",
+   "id": "2024-Q3-61638943",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6302,7 +6445,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-033",
+   "id": "2024-Q3-c569861e",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6316,7 +6459,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-034",
+   "id": "2024-Q3-af1e4d54",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6330,7 +6473,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-035",
+   "id": "2024-Q3-316316dd",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6344,7 +6487,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-036",
+   "id": "2024-Q3-71371f30",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6358,7 +6501,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-037",
+   "id": "2024-Q3-684f3b0b",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6372,7 +6515,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-038",
+   "id": "2024-Q3-5c554774",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6386,7 +6529,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q3-039",
+   "id": "2024-Q3-f23f7be8",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6400,7 +6543,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q3-040",
+   "id": "2024-Q3-8b31d9c5",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6414,7 +6557,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q3-041",
+   "id": "2024-Q3-48b9aae7",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6428,7 +6571,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q3-042",
+   "id": "2024-Q3-df3f4d33",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6442,7 +6585,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q3-043",
+   "id": "2024-Q3-175943d6",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6456,7 +6599,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q3-044",
+   "id": "2024-Q3-569ad760",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6470,7 +6613,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q3-045",
+   "id": "2024-Q3-d7b0dff7",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6484,7 +6627,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q3-046",
+   "id": "2024-Q3-62ecf275",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6498,7 +6641,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q3-047",
+   "id": "2024-Q3-c05691ec",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6512,7 +6655,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q3-048",
+   "id": "2024-Q3-4376d4e0",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6526,7 +6669,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q3-049",
+   "id": "2024-Q3-214bcba4",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6540,7 +6683,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q3-050",
+   "id": "2024-Q3-2c8189d1",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6554,7 +6697,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q3-051",
+   "id": "2024-Q3-88aa6edc",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6568,7 +6711,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q3-052",
+   "id": "2024-Q3-ab1c00a9",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6582,7 +6725,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q3-053",
+   "id": "2024-Q3-41ac8731",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6596,7 +6739,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q3-054",
+   "id": "2024-Q3-42303c9a",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6610,7 +6753,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q3-055",
+   "id": "2024-Q3-8357f69b",
    "quarter": "2024-Q3",
    "year": 2024,
    "q": 3,
@@ -6624,7 +6767,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q4-001",
+   "id": "2024-Q4-d6d59c99",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6638,7 +6781,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q4-002",
+   "id": "2024-Q4-f882d658",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6652,7 +6795,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q4-003",
+   "id": "2024-Q4-9b346e55",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6666,7 +6809,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q4-004",
+   "id": "2024-Q4-9b1c6f07",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6680,7 +6823,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q4-005",
+   "id": "2024-Q4-35a0a417",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6694,7 +6837,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q4-006",
+   "id": "2024-Q4-9dc6b379",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6708,7 +6851,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q4-007",
+   "id": "2024-Q4-5d487a8e",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6722,7 +6865,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q4-008",
+   "id": "2024-Q4-aad94f94",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6736,7 +6879,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q4-009",
+   "id": "2024-Q4-9a7dd3c7",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6750,7 +6893,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q4-010",
+   "id": "2024-Q4-5d923856",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6764,7 +6907,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q4-011",
+   "id": "2024-Q4-45e218e7",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6778,7 +6921,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q4-012",
+   "id": "2024-Q4-d5efb56f",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6792,7 +6935,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q4-013",
+   "id": "2024-Q4-5c38426d",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6806,7 +6949,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2024-Q4-014",
+   "id": "2024-Q4-226dd1a2",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6820,7 +6963,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q4-015",
+   "id": "2024-Q4-c531210b",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6834,7 +6977,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q4-016",
+   "id": "2024-Q4-168e9560",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6848,7 +6991,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q4-017",
+   "id": "2024-Q4-fec28580",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6862,7 +7005,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q4-018",
+   "id": "2024-Q4-90aae424",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6876,7 +7019,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q4-019",
+   "id": "2024-Q4-78badbd4",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6890,7 +7033,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q4-020",
+   "id": "2024-Q4-d789f8a0",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6904,7 +7047,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q4-021",
+   "id": "2024-Q4-016fcdb1",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6918,7 +7061,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q4-022",
+   "id": "2024-Q4-d3b937f9",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6932,7 +7075,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q4-023",
+   "id": "2024-Q4-adc7dd23",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6946,7 +7089,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q4-024",
+   "id": "2024-Q4-d58ef917",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6960,7 +7103,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q4-025",
+   "id": "2024-Q4-cacafd9c",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6974,7 +7117,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q4-026",
+   "id": "2024-Q4-b7bc145a",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -6988,7 +7131,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2024-Q4-027",
+   "id": "2024-Q4-f65d466b",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -7002,7 +7145,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q4-028",
+   "id": "2024-Q4-e44f97c1",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -7016,7 +7159,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q4-029",
+   "id": "2024-Q4-b1244a0f",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -7030,7 +7173,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q4-030",
+   "id": "2024-Q4-9d39dfc4",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -7044,7 +7187,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q4-031",
+   "id": "2024-Q4-85f97730",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -7058,7 +7201,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2024-Q4-032",
+   "id": "2024-Q4-d513e405",
    "quarter": "2024-Q4",
    "year": 2024,
    "q": 4,
@@ -7072,7 +7215,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-001",
+   "id": "2025-Q1-9bd79579",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7086,7 +7229,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-002",
+   "id": "2025-Q1-a92673ec",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7100,7 +7243,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-003",
+   "id": "2025-Q1-f0455aa5",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7114,7 +7257,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-004",
+   "id": "2025-Q1-8885a619",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7128,7 +7271,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-005",
+   "id": "2025-Q1-24488878",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7142,7 +7285,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-006",
+   "id": "2025-Q1-1ee04d76",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7156,7 +7299,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-007",
+   "id": "2025-Q1-e596a219",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7170,7 +7313,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-008",
+   "id": "2025-Q1-bdf1d6a2",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7184,7 +7327,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-009",
+   "id": "2025-Q1-3e5dc08c",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7198,7 +7341,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-010",
+   "id": "2025-Q1-5b70e39f",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7212,7 +7355,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-011",
+   "id": "2025-Q1-7fbcaedd",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7226,7 +7369,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-012",
+   "id": "2025-Q1-47c189f5",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7240,7 +7383,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-013",
+   "id": "2025-Q1-0d0bea6d",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7254,7 +7397,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-014",
+   "id": "2025-Q1-1cd3eaa0",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7268,7 +7411,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-015",
+   "id": "2025-Q1-7cf66144",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7282,7 +7425,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-016",
+   "id": "2025-Q1-e915027e",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7296,7 +7439,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-017",
+   "id": "2025-Q1-f1b80385",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7310,7 +7453,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-018",
+   "id": "2025-Q1-5afe3e00",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7324,7 +7467,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-019",
+   "id": "2025-Q1-e3f64581",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7338,7 +7481,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-020",
+   "id": "2025-Q1-4caaa124",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7352,7 +7495,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-021",
+   "id": "2025-Q1-2148f25d",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7366,7 +7509,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-022",
+   "id": "2025-Q1-216331e4",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7380,7 +7523,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-023",
+   "id": "2025-Q1-bc32237d",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7394,7 +7537,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q1-024",
+   "id": "2025-Q1-a62c9ed1",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7408,7 +7551,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-025",
+   "id": "2025-Q1-dea3f8dd",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7422,7 +7565,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-026",
+   "id": "2025-Q1-e093cc01",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7436,7 +7579,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-027",
+   "id": "2025-Q1-7112ba73",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7450,7 +7593,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-028",
+   "id": "2025-Q1-f963ece3",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7464,7 +7607,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-029",
+   "id": "2025-Q1-2e578677",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7478,7 +7621,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-030",
+   "id": "2025-Q1-a0c3a55f",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7492,7 +7635,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-031",
+   "id": "2025-Q1-0c96a209",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7506,7 +7649,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-032",
+   "id": "2025-Q1-0431e388",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7520,7 +7663,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-033",
+   "id": "2025-Q1-caee7c51",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7534,7 +7677,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-034",
+   "id": "2025-Q1-7d3daa43",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7548,7 +7691,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-035",
+   "id": "2025-Q1-013b3239",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7562,7 +7705,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-036",
+   "id": "2025-Q1-c09931b1",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7576,7 +7719,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-037",
+   "id": "2025-Q1-18fda459",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7590,7 +7733,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-038",
+   "id": "2025-Q1-0fcd579e",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7604,7 +7747,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-039",
+   "id": "2025-Q1-5ed47787",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7618,7 +7761,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-040",
+   "id": "2025-Q1-f8773e0a",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7632,7 +7775,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-041",
+   "id": "2025-Q1-1e9d0a03",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7646,7 +7789,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-042",
+   "id": "2025-Q1-6923a614",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7660,7 +7803,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-043",
+   "id": "2025-Q1-71193ea9",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7674,7 +7817,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-044",
+   "id": "2025-Q1-352ba2e2",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7688,7 +7831,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-045",
+   "id": "2025-Q1-69106ce9",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7702,7 +7845,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-046",
+   "id": "2025-Q1-2834ea57",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7716,7 +7859,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-047",
+   "id": "2025-Q1-4c59493f",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7730,7 +7873,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-048",
+   "id": "2025-Q1-ce15ac36",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7744,7 +7887,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-049",
+   "id": "2025-Q1-c4ddc7fe",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7758,7 +7901,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-050",
+   "id": "2025-Q1-c225b691",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7772,7 +7915,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-051",
+   "id": "2025-Q1-fd18b4f2",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7786,7 +7929,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-052",
+   "id": "2025-Q1-a0a90464",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7800,7 +7943,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q1-053",
+   "id": "2025-Q1-c728d242",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7814,7 +7957,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-054",
+   "id": "2025-Q1-1c607b69",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7828,7 +7971,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-055",
+   "id": "2025-Q1-b5a8f761",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7842,7 +7985,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-056",
+   "id": "2025-Q1-0614f775",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7856,7 +7999,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-057",
+   "id": "2025-Q1-8d3a736a",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7870,7 +8013,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-058",
+   "id": "2025-Q1-274c4881",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7884,7 +8027,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-059",
+   "id": "2025-Q1-d10ae90f",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7898,7 +8041,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q1-060",
+   "id": "2025-Q1-cef51c32",
    "quarter": "2025-Q1",
    "year": 2025,
    "q": 1,
@@ -7912,7 +8055,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q2-001",
+   "id": "2025-Q2-605253fc",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -7926,7 +8069,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-002",
+   "id": "2025-Q2-1d3250a6",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -7940,7 +8083,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-003",
+   "id": "2025-Q2-718fe4a6",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -7954,7 +8097,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-004",
+   "id": "2025-Q2-ec09da4e",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -7968,7 +8111,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-005",
+   "id": "2025-Q2-6a036073",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -7982,7 +8125,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-006",
+   "id": "2025-Q2-348fb21b",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -7996,7 +8139,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-007",
+   "id": "2025-Q2-58702f87",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8010,7 +8153,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-008",
+   "id": "2025-Q2-74d985ce",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8024,7 +8167,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-009",
+   "id": "2025-Q2-bcbaf6bf",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8038,7 +8181,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-010",
+   "id": "2025-Q2-ade34ff0",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8052,7 +8195,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-011",
+   "id": "2025-Q2-3fec968d",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8066,7 +8209,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-012",
+   "id": "2025-Q2-e7fd379c",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8080,7 +8223,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-013",
+   "id": "2025-Q2-8938c5fa",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8094,7 +8237,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-014",
+   "id": "2025-Q2-e0c0cb49",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8108,7 +8251,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-015",
+   "id": "2025-Q2-7e8d0c99",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8122,7 +8265,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-016",
+   "id": "2025-Q2-385e4653",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8136,7 +8279,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-017",
+   "id": "2025-Q2-773ff654",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8150,7 +8293,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-018",
+   "id": "2025-Q2-d0fb6e6d",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8164,7 +8307,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-019",
+   "id": "2025-Q2-a43ed503",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8178,7 +8321,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-020",
+   "id": "2025-Q2-f5959384",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8192,7 +8335,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q2-021",
+   "id": "2025-Q2-00422fa4",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8206,7 +8349,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-022",
+   "id": "2025-Q2-d33e3a43",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8220,7 +8363,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-023",
+   "id": "2025-Q2-3bf17408",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8234,7 +8377,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-024",
+   "id": "2025-Q2-c7d92a60",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8248,7 +8391,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-025",
+   "id": "2025-Q2-14d211cf",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8262,7 +8405,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-026",
+   "id": "2025-Q2-3f6acde9",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8276,7 +8419,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-027",
+   "id": "2025-Q2-abe06d07",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8290,7 +8433,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-028",
+   "id": "2025-Q2-e8131081",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8304,7 +8447,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-029",
+   "id": "2025-Q2-cac71943",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8318,7 +8461,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-030",
+   "id": "2025-Q2-16d3510f",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8332,7 +8475,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-031",
+   "id": "2025-Q2-73224c63",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8346,7 +8489,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-032",
+   "id": "2025-Q2-70af8c02",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8360,7 +8503,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-033",
+   "id": "2025-Q2-feafb6c9",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8374,7 +8517,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-034",
+   "id": "2025-Q2-fde0bdcf",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8388,7 +8531,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-035",
+   "id": "2025-Q2-efcfacef",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8402,7 +8545,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-036",
+   "id": "2025-Q2-8e17e041",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8416,7 +8559,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-037",
+   "id": "2025-Q2-4300757e",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8430,7 +8573,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-038",
+   "id": "2025-Q2-582fd80c",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8444,7 +8587,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-039",
+   "id": "2025-Q2-35a41b49",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8458,7 +8601,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-040",
+   "id": "2025-Q2-5f7a1827",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8472,7 +8615,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-041",
+   "id": "2025-Q2-6776ec7a",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8486,7 +8629,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-042",
+   "id": "2025-Q2-e609bf1f",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8500,7 +8643,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-043",
+   "id": "2025-Q2-dff32408",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8514,7 +8657,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-044",
+   "id": "2025-Q2-91f2b752",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8528,7 +8671,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q2-045",
+   "id": "2025-Q2-075897b1",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8542,7 +8685,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q2-046",
+   "id": "2025-Q2-3c94807b",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8556,7 +8699,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q2-047",
+   "id": "2025-Q2-9fc71967",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8570,7 +8713,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q2-048",
+   "id": "2025-Q2-626a8bca",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8584,7 +8727,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q2-049",
+   "id": "2025-Q2-df50b9ef",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8598,7 +8741,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q2-050",
+   "id": "2025-Q2-d80fc3ed",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8612,7 +8755,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q2-051",
+   "id": "2025-Q2-006a3b0f",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8626,7 +8769,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q2-052",
+   "id": "2025-Q2-081e62aa",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8640,7 +8783,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q2-053",
+   "id": "2025-Q2-1d964530",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8654,7 +8797,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q2-054",
+   "id": "2025-Q2-dcc63eba",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8668,7 +8811,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q2-055",
+   "id": "2025-Q2-9bde4ccb",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8682,7 +8825,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q2-056",
+   "id": "2025-Q2-ad7e27db",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8696,7 +8839,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q2-057",
+   "id": "2025-Q2-3331804f",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8710,7 +8853,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q2-058",
+   "id": "2025-Q2-87a926f5",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8724,7 +8867,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q2-059",
+   "id": "2025-Q2-60d13fd9",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8738,7 +8881,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q2-060",
+   "id": "2025-Q2-091a9f5f",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8752,7 +8895,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q2-061",
+   "id": "2025-Q2-4f4c3097",
    "quarter": "2025-Q2",
    "year": 2025,
    "q": 2,
@@ -8766,7 +8909,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q3-001",
+   "id": "2025-Q3-f58a362e",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -8780,7 +8923,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-002",
+   "id": "2025-Q3-4a878091",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -8794,7 +8937,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-003",
+   "id": "2025-Q3-08fbdd49",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -8808,7 +8951,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-004",
+   "id": "2025-Q3-5394621d",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -8822,7 +8965,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-005",
+   "id": "2025-Q3-67aa90a3",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -8836,7 +8979,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-006",
+   "id": "2025-Q3-0c04313e",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -8850,7 +8993,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-007",
+   "id": "2025-Q3-814319ae",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -8864,7 +9007,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-008",
+   "id": "2025-Q3-fbdc9c80",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -8878,7 +9021,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-009",
+   "id": "2025-Q3-87e6b7b4",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -8892,7 +9035,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-010",
+   "id": "2025-Q3-4232d55c",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -8906,7 +9049,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-011",
+   "id": "2025-Q3-cec5b240",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -8920,7 +9063,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-012",
+   "id": "2025-Q3-e51e03fa",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -8934,7 +9077,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-013",
+   "id": "2025-Q3-75fc73e9",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -8948,7 +9091,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-014",
+   "id": "2025-Q3-9c6e48ef",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -8962,7 +9105,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-015",
+   "id": "2025-Q3-a8f1b071",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -8976,7 +9119,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-016",
+   "id": "2025-Q3-98a01000",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -8990,7 +9133,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-017",
+   "id": "2025-Q3-ec912598",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9004,7 +9147,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-018",
+   "id": "2025-Q3-a0a49363",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9018,7 +9161,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-019",
+   "id": "2025-Q3-03a21ddc",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9032,7 +9175,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2025-Q3-020",
+   "id": "2025-Q3-1fe4d3d6",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9046,7 +9189,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q3-021",
+   "id": "2025-Q3-70f71547",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9060,7 +9203,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q3-022",
+   "id": "2025-Q3-56552598",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9074,7 +9217,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q3-023",
+   "id": "2025-Q3-d8519a07",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9088,7 +9231,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q3-024",
+   "id": "2025-Q3-4da46627",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9102,7 +9245,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q3-025",
+   "id": "2025-Q3-d78c5bca",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9116,7 +9259,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q3-026",
+   "id": "2025-Q3-cd83772b",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9130,7 +9273,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q3-027",
+   "id": "2025-Q3-7f2a3035",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9144,7 +9287,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q3-028",
+   "id": "2025-Q3-be083e81",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9158,7 +9301,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2025-Q3-029",
+   "id": "2025-Q3-d7142883",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9172,7 +9315,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q3-030",
+   "id": "2025-Q3-507bb016",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9186,7 +9329,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q3-031",
+   "id": "2025-Q3-dc0645e3",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9200,7 +9343,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q3-032",
+   "id": "2025-Q3-e6a6b9e5",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9214,7 +9357,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q3-033",
+   "id": "2025-Q3-ccb9a57f",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9228,7 +9371,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q3-034",
+   "id": "2025-Q3-d51288ca",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9242,7 +9385,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2025-Q3-035",
+   "id": "2025-Q3-597a3945",
    "quarter": "2025-Q3",
    "year": 2025,
    "q": 3,
@@ -9256,7 +9399,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q1-001",
+   "id": "2026-Q1-a9f0845e",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9270,7 +9413,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q1-002",
+   "id": "2026-Q1-da1626a7",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9284,7 +9427,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q1-003",
+   "id": "2026-Q1-34f4c31b",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9298,7 +9441,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q1-004",
+   "id": "2026-Q1-18b8eb26",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9312,7 +9455,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q1-005",
+   "id": "2026-Q1-013e8e4e",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9326,7 +9469,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q1-006",
+   "id": "2026-Q1-d8b45295",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9340,7 +9483,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q1-007",
+   "id": "2026-Q1-99ded66b",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9354,7 +9497,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q1-008",
+   "id": "2026-Q1-6aacc301",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9368,7 +9511,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q1-009",
+   "id": "2026-Q1-6571c529",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9382,7 +9525,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q1-010",
+   "id": "2026-Q1-7119ebb4",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9396,7 +9539,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q1-011",
+   "id": "2026-Q1-5894f4b3",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9410,7 +9553,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q1-012",
+   "id": "2026-Q1-868381a9",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9424,7 +9567,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q1-013",
+   "id": "2026-Q1-d9598774",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9438,7 +9581,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q1-014",
+   "id": "2026-Q1-376217cd",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9452,7 +9595,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q1-015",
+   "id": "2026-Q1-544469a0",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9466,7 +9609,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q1-016",
+   "id": "2026-Q1-d6318574",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9480,7 +9623,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q1-017",
+   "id": "2026-Q1-55c47548",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9494,7 +9637,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q1-018",
+   "id": "2026-Q1-25a925c6",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9508,7 +9651,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q1-019",
+   "id": "2026-Q1-2c8c1b9e",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9522,7 +9665,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q1-020",
+   "id": "2026-Q1-f99b32ce",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9536,7 +9679,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q1-021",
+   "id": "2026-Q1-f88812d1",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9550,7 +9693,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q1-022",
+   "id": "2026-Q1-d142f326",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9564,7 +9707,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q1-023",
+   "id": "2026-Q1-896d2b7d",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9578,7 +9721,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q1-024",
+   "id": "2026-Q1-2497884b",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9592,7 +9735,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q1-025",
+   "id": "2026-Q1-8076e455",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9606,7 +9749,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q1-026",
+   "id": "2026-Q1-5d3e1581",
    "quarter": "2026-Q1",
    "year": 2026,
    "q": 1,
@@ -9620,7 +9763,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q2-001",
+   "id": "2026-Q2-4d5307f2",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9634,7 +9777,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-002",
+   "id": "2026-Q2-7885c430",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9648,7 +9791,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q2-003",
+   "id": "2026-Q2-6a62a0c3",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9662,7 +9805,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q2-004",
+   "id": "2026-Q2-3f1d0a61",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9676,7 +9819,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q2-005",
+   "id": "2026-Q2-6dccced2",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9690,7 +9833,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q2-006",
+   "id": "2026-Q2-beb38913",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9704,7 +9847,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q2-007",
+   "id": "2026-Q2-bfb72343",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9718,7 +9861,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q2-008",
+   "id": "2026-Q2-7dd744dc",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9732,7 +9875,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q2-009",
+   "id": "2026-Q2-7a7a4184",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9746,7 +9889,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q2-010",
+   "id": "2026-Q2-e3c755e5",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9760,7 +9903,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q2-011",
+   "id": "2026-Q2-60c55c7e",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9774,7 +9917,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q2-012",
+   "id": "2026-Q2-7f04b2ea",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9788,7 +9931,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q2-013",
+   "id": "2026-Q2-09cd55a4",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9802,7 +9945,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q2-014",
+   "id": "2026-Q2-f596359d",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9816,7 +9959,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q2-015",
+   "id": "2026-Q2-07394044",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9830,7 +9973,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q2-016",
+   "id": "2026-Q2-3d7ab9d4",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9844,7 +9987,7 @@
    "status": "Ganada"
   },
   {
-   "id": "2026-Q2-017",
+   "id": "2026-Q2-19dcdda7",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9858,7 +10001,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-018",
+   "id": "2026-Q2-e614253e",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9872,7 +10015,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-019",
+   "id": "2026-Q2-70b30b44",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9886,7 +10029,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-020",
+   "id": "2026-Q2-21b41737",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9900,7 +10043,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-021",
+   "id": "2026-Q2-9a330bf0",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9914,7 +10057,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-022",
+   "id": "2026-Q2-c7294e17",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9928,7 +10071,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-023",
+   "id": "2026-Q2-96ec64c7",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9942,7 +10085,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-024",
+   "id": "2026-Q2-3050f0af",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9956,7 +10099,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-025",
+   "id": "2026-Q2-3d605c58",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9970,7 +10113,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-026",
+   "id": "2026-Q2-475ad611",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9984,7 +10127,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-027",
+   "id": "2026-Q2-e6b0de53",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -9998,7 +10141,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-028",
+   "id": "2026-Q2-a5dc93a2",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10012,7 +10155,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-029",
+   "id": "2026-Q2-38463616",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10026,7 +10169,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-030",
+   "id": "2026-Q2-fe2c76d6",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10040,7 +10183,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-031",
+   "id": "2026-Q2-3440b359",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10054,7 +10197,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-032",
+   "id": "2026-Q2-5c691223",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10068,7 +10211,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-033",
+   "id": "2026-Q2-498c0a63",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10082,7 +10225,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-034",
+   "id": "2026-Q2-5ae3b0db",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10096,7 +10239,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-035",
+   "id": "2026-Q2-5c691223-2",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10110,7 +10253,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-036",
+   "id": "2026-Q2-6380f15e",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10124,7 +10267,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-037",
+   "id": "2026-Q2-a0cf5fe6",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10138,7 +10281,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-038",
+   "id": "2026-Q2-aba6ac1c",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10152,7 +10295,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-039",
+   "id": "2026-Q2-ef968ea8",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10166,7 +10309,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-040",
+   "id": "2026-Q2-19dcdda7-2",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10180,7 +10323,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-041",
+   "id": "2026-Q2-101993dc",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10194,7 +10337,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-042",
+   "id": "2026-Q2-2e98d757",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10208,7 +10351,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-043",
+   "id": "2026-Q2-3ce296dd",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10222,7 +10365,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-044",
+   "id": "2026-Q2-865f4d6f",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10236,7 +10379,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-045",
+   "id": "2026-Q2-e8c47c58",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10250,7 +10393,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-046",
+   "id": "2026-Q2-f6f196dd",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10264,7 +10407,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-047",
+   "id": "2026-Q2-701df10c",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10278,7 +10421,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-048",
+   "id": "2026-Q2-af388e79",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10292,7 +10435,7 @@
    "status": "Pendiente"
   },
   {
-   "id": "2026-Q2-049",
+   "id": "2026-Q2-c489e677",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10306,7 +10449,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q2-050",
+   "id": "2026-Q2-828e350e",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10320,7 +10463,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q2-051",
+   "id": "2026-Q2-0df4d36a",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10334,7 +10477,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q2-052",
+   "id": "2026-Q2-0915de7e",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10348,7 +10491,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q2-053",
+   "id": "2026-Q2-4d3d4d23",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10362,7 +10505,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q2-054",
+   "id": "2026-Q2-0dd8036b",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10376,7 +10519,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q2-055",
+   "id": "2026-Q2-98972ceb",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10390,7 +10533,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q2-056",
+   "id": "2026-Q2-7a944bfc",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10404,7 +10547,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q2-057",
+   "id": "2026-Q2-5428e163",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10418,7 +10561,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q2-058",
+   "id": "2026-Q2-fcd5217d",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10432,7 +10575,7 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q2-059",
+   "id": "2026-Q2-c9de49b4",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
@@ -10446,12 +10589,12 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q2-060",
+   "id": "2026-Q2-3e5f457c",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
-   "month": 6,
-   "fecha": "6.2029",
+   "month": 7,
+   "fecha": "7.2026",
    "nombre": "Novelty Corp De México, S.A. De C.V.",
    "origen": "PR and Events",
    "area": "Marketing",
@@ -10460,17 +10603,619 @@
    "status": "Perdida"
   },
   {
-   "id": "2026-Q2-061",
+   "id": "2026-Q2-e36016a6",
    "quarter": "2026-Q2",
    "year": 2026,
    "q": 2,
-   "month": 6,
-   "fecha": "6.2029",
+   "month": 7,
+   "fecha": "7.2026",
    "nombre": "REAC Automatizaciones",
    "origen": "Network",
    "area": "Web & App Development",
    "proyecto": "Online Store",
    "valor": 121500.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-6314aa2d",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "Orange",
+   "origen": "Kometia",
+   "area": "Web & App Development",
+   "proyecto": "Website",
+   "valor": 4000.0,
+   "status": "Ganada"
+  },
+  {
+   "id": "2026-Q3-cc06fb86",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "Mireni Atelier",
+   "origen": "Network",
+   "area": "Web & App Development",
+   "proyecto": "Online Store",
+   "valor": 68500.0,
+   "status": "Ganada"
+  },
+  {
+   "id": "2026-Q3-ed59d1f0",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "Banzi",
+   "origen": "Kometia",
+   "area": "Web & App Development",
+   "proyecto": "Online Store",
+   "valor": 18850.0,
+   "status": "Ganada"
+  },
+  {
+   "id": "2026-Q3-daa2d243",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "Nexalia",
+   "origen": "Campaigns",
+   "area": "Design",
+   "proyecto": "Branding",
+   "valor": 68500.0,
+   "status": "Ganada"
+  },
+  {
+   "id": "2026-Q3-aee8e55e",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 8,
+   "fecha": "8.2026",
+   "nombre": "Bruce Medica Internacional",
+   "origen": "Network",
+   "area": "Web & App Development",
+   "proyecto": "Online Store",
+   "valor": 125865.0,
+   "status": "Ganada"
+  },
+  {
+   "id": "2026-Q3-4c8e739f",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 8,
+   "fecha": "8.2026",
+   "nombre": "eCommerce B Hermanos",
+   "origen": "Active Client",
+   "area": "Marketing",
+   "proyecto": "Marketing Strategy",
+   "valor": 333000.0,
+   "status": "Ganada"
+  },
+  {
+   "id": "2026-Q3-0d464a74",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "Guantes Verri S.A. de C.V.",
+   "origen": "Kometia",
+   "area": "Web & App Development",
+   "proyecto": "Online Store",
+   "valor": 22400.0,
+   "status": "Ganada"
+  },
+  {
+   "id": "2026-Q3-6f5405ef",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "PM Steele",
+   "origen": "Network",
+   "area": "Marketing",
+   "proyecto": "Marketing Strategy",
+   "valor": 813200.0,
+   "status": "Ganada"
+  },
+  {
+   "id": "2026-Q3-35041ef9",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "DiferenciArte",
+   "origen": "Network",
+   "area": "Marketing",
+   "proyecto": "Google Workspace",
+   "valor": 19700.0,
+   "status": "Ganada"
+  },
+  {
+   "id": "2026-Q3-2ef3857b",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "MTA Trust",
+   "origen": "Network",
+   "area": "Web & App Development",
+   "proyecto": "Digital Platform",
+   "valor": 173250.0,
+   "status": "Ganada"
+  },
+  {
+   "id": "2026-Q3-e5a49651",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 9,
+   "fecha": "9.2026",
+   "nombre": "RF Travel Group",
+   "origen": "Network",
+   "area": "Design",
+   "proyecto": "Graphic Digital Materials",
+   "valor": 33785.0,
+   "status": "Ganada"
+  },
+  {
+   "id": "2026-Q3-e7d20c2d",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 9,
+   "fecha": "9.2026",
+   "nombre": "Healthical",
+   "origen": "Active Client",
+   "area": "Marketing",
+   "proyecto": "Marketing Strategy",
+   "valor": 104220.0,
+   "status": "Ganada"
+  },
+  {
+   "id": "2026-Q3-169dc661",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 9,
+   "fecha": "9.2026",
+   "nombre": "Skincoremx",
+   "origen": "Shopify",
+   "area": "Web & App Development",
+   "proyecto": "Online Store",
+   "valor": 11250.0,
+   "status": "Ganada"
+  },
+  {
+   "id": "2026-Q3-ba53ac46",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "THE FIT PILATES",
+   "origen": "Former Client",
+   "area": "Marketing",
+   "proyecto": "Marketing Strategy",
+   "valor": 126000.0,
+   "status": "Pendiente"
+  },
+  {
+   "id": "2026-Q3-c75bd753",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 9,
+   "fecha": "9.2026",
+   "nombre": "Culto Apparel",
+   "origen": "Network",
+   "area": "Web & App Development",
+   "proyecto": "Online Store",
+   "valor": 147000.0,
+   "status": "Pendiente"
+  },
+  {
+   "id": "2026-Q3-edbfb1a9",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 9,
+   "fecha": "9.2026",
+   "nombre": "Nexalia",
+   "origen": "Active Client",
+   "area": "Web & App Development",
+   "proyecto": "Online Store",
+   "valor": 168000.0,
+   "status": "Pendiente"
+  },
+  {
+   "id": "2026-Q3-9ed6bb91",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 9,
+   "fecha": "9.2026",
+   "nombre": "Cybex",
+   "origen": "Active Client",
+   "area": "Web & App Development",
+   "proyecto": "Agile Development",
+   "valor": 337500.0,
+   "status": "Pendiente"
+  },
+  {
+   "id": "2026-Q3-d42c5187",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 9,
+   "fecha": "9.2026",
+   "nombre": "MOBO México",
+   "origen": "Network",
+   "area": "Web & App Development",
+   "proyecto": "Online Store",
+   "valor": 460000.0,
+   "status": "Pendiente"
+  },
+  {
+   "id": "2026-Q3-831a7470",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "PM Steele",
+   "origen": "Network",
+   "area": "Web & App Development",
+   "proyecto": "Website",
+   "valor": 231250.0,
+   "status": "Pendiente"
+  },
+  {
+   "id": "2026-Q3-bd8031ae",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "BASHAM",
+   "origen": "Direct Contact",
+   "area": "Web & App Development",
+   "proyecto": "Website",
+   "valor": 147000.0,
+   "status": "Pendiente"
+  },
+  {
+   "id": "2026-Q3-d7b53488",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "Centro Mexicano de Fertilidad | Dr. Alberto Kably",
+   "origen": "Former Client",
+   "area": "Marketing",
+   "proyecto": "Marketing Strategy",
+   "valor": 129000.0,
+   "status": "Pendiente"
+  },
+  {
+   "id": "2026-Q3-899638d5",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 9,
+   "fecha": "9.2026",
+   "nombre": "QM+3",
+   "origen": "Direct Contact",
+   "area": "Web & App Development",
+   "proyecto": "Website",
+   "valor": 52500.0,
+   "status": "Pendiente"
+  },
+  {
+   "id": "2026-Q3-0fdfb115",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 9,
+   "fecha": "9.2026",
+   "nombre": "Rodriguez Davalos Abogados",
+   "origen": "Former Client",
+   "area": "Web & App Development",
+   "proyecto": "Development Consultancy",
+   "valor": 22500.0,
+   "status": "Pendiente"
+  },
+  {
+   "id": "2026-Q3-666a01d9",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "Danceology Studio",
+   "origen": "Network",
+   "area": "Web & App Development",
+   "proyecto": "Online Store",
+   "valor": 38900.0,
+   "status": "Pendiente"
+  },
+  {
+   "id": "2026-Q3-b38b1750",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "Daniel Pascal",
+   "origen": "Network",
+   "area": "Web & App Development",
+   "proyecto": "Development Consultancy",
+   "valor": 17500.0,
+   "status": "Pendiente"
+  },
+  {
+   "id": "2026-Q3-f3f185fa",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "El Asadito",
+   "origen": "Campaigns",
+   "area": "Marketing",
+   "proyecto": "Marketing Strategy",
+   "valor": 180000.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-a4370f98",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "Comercial Treviño",
+   "origen": "Network",
+   "area": "Web & App Development",
+   "proyecto": "Marketing Strategy",
+   "valor": 500000.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-5879eeb6",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 8,
+   "fecha": "8.2026",
+   "nombre": "Dipz Desarrollos",
+   "origen": "Campaigns",
+   "area": "Web & App Development",
+   "proyecto": "Website",
+   "valor": 110000.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-a7bb1c3e",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 8,
+   "fecha": "8.2026",
+   "nombre": "Dipz Desarrollos",
+   "origen": "Campaigns",
+   "area": "Design",
+   "proyecto": "Branding",
+   "valor": 28000.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-fdb2d7b2",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 8,
+   "fecha": "8.2026",
+   "nombre": "Línea Recta",
+   "origen": "Network",
+   "area": "Web & App Development",
+   "proyecto": "Development Consultancy",
+   "valor": 45500.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-c614119a",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 8,
+   "fecha": "8.2026",
+   "nombre": "Grupo Mi Alivio",
+   "origen": "Shopify",
+   "area": "Web & App Development",
+   "proyecto": "Online Store",
+   "valor": 120000.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-5a2630ca",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 8,
+   "fecha": "8.2026",
+   "nombre": "Illux",
+   "origen": "Direct Contact",
+   "area": "Web & App Development",
+   "proyecto": "Online Store",
+   "valor": 197500.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-2f465ce5",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 9,
+   "fecha": "9.2026",
+   "nombre": "Paseos Polares",
+   "origen": "Network",
+   "area": "Marketing",
+   "proyecto": "Marketing Strategy",
+   "valor": 63000.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-46bab857",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 9,
+   "fecha": "9.2026",
+   "nombre": "MOOVILUM",
+   "origen": "Linked In",
+   "area": "Web & App Development",
+   "proyecto": "Online Store",
+   "valor": 160000.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-e6f23f86",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 9,
+   "fecha": "9.2026",
+   "nombre": "Johanne Cox",
+   "origen": "Direct Contact",
+   "area": "Web & App Development",
+   "proyecto": "Website",
+   "valor": 48000.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-7ad9a05b",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 9,
+   "fecha": "9.2026",
+   "nombre": "Johanne Cox",
+   "origen": "Direct Contact",
+   "area": "Design",
+   "proyecto": "Branding",
+   "valor": 28000.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-7eea940e",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "Pizarromex",
+   "origen": "Kometia",
+   "area": "Web & App Development",
+   "proyecto": "Online Store",
+   "valor": 75000.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-a4d9bd09",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "Liga Comunitaria",
+   "origen": "Kometia",
+   "area": "Web & App Development",
+   "proyecto": "Online Store",
+   "valor": 17000.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-660aebd8",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "Bolsas Jennyfer",
+   "origen": "Kometia",
+   "area": "Web & App Development",
+   "proyecto": "Online Store",
+   "valor": 68000.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-d6361638",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 9,
+   "fecha": "9.2026",
+   "nombre": "Frenos Ismael",
+   "origen": "Direct Contact",
+   "area": "Web & App Development",
+   "proyecto": "Online Store",
+   "valor": 177500.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-a9c32f58",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "Novygi",
+   "origen": "Network",
+   "area": "Web & App Development",
+   "proyecto": "Website",
+   "valor": 68500.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-1d37c086",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "Urbano Park",
+   "origen": "Network",
+   "area": "Web & App Development",
+   "proyecto": "Website",
+   "valor": 48700.0,
+   "status": "Perdida"
+  },
+  {
+   "id": "2026-Q3-1d37c086-2",
+   "quarter": "2026-Q3",
+   "year": 2026,
+   "q": 3,
+   "month": 7,
+   "fecha": "7.2026",
+   "nombre": "Urbano Park",
+   "origen": "Network",
+   "area": "Web & App Development",
+   "proyecto": "Website",
+   "valor": 43750.0,
    "status": "Perdida"
   }
  ]
